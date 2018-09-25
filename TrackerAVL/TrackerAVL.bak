@@ -23,19 +23,13 @@ F2 "UART_TX" O R 6300 2750 50
 F3 "UART_RX" I R 6300 2650 50 
 $EndSheet
 $Sheet
-S 2100 5750 800  650 
-U 5BA56FF8
-F0 "Fuente" 50
-F1 "fuente.sch" 50
-$EndSheet
-$Sheet
-S 2350 2850 500  150 
+S 7600 3550 500  150 
 U 5BA57001
 F0 "Acelerómetro" 50
 F1 "acelerometro.sch" 50
 $EndSheet
 $Sheet
-S 2350 2400 500  150 
+S 1400 2100 1500 2400
 U 5BA5703C
 F0 "Conectores_IO" 50
 F1 "conectores_io.sch" 50
@@ -47,7 +41,7 @@ F0 "Audio" 50
 F1 "audio.sch" 50
 $EndSheet
 $Sheet
-S 2350 3300 500  150 
+S 7600 4000 500  150 
 U 5BA7C507
 F0 "ON_BOARD_IO" 50
 F1 "ON_BOARD_IO.sch" 50
@@ -75,6 +69,12 @@ Wire Wire Line
 	6300 2650 7600 2650
 Wire Wire Line
 	7600 2750 6300 2750
-Text Notes 700  1350 0    71   ~ 14
+Text Notes 8150 1350 0    71   ~ 14
 Pendientes Equipo AVL\n> Transistor a speaker para pitido tipo buzzer.\n> IRF7105 a PWR_MDM.\n> Ver tema i2c, spi para display consola (mux?).\n> UART_DTR (uc20) a GPIO para manejo sleep mode.\n> Ver tema IO An./Dig. 
+$Sheet
+S 1400 1000 1500 600 
+U 5BA56FF8
+F0 "Fuente" 50
+F1 "fuente.sch" 50
+$EndSheet
 $EndSCHEMATC
