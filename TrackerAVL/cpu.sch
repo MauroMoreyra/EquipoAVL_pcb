@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+LIBS:TrackerAVL-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6300 4800 0    50   Output ~ 0
+UART_TX
+Text HLabel 6300 4900 0    50   Input ~ 0
+UART_RX
+Wire Wire Line
+	6700 4800 6300 4800
+Wire Wire Line
+	6700 4900 6300 4900
+NoConn ~ 6700 1850
+Text HLabel 6300 2350 0    50   Input ~ 0
+PULS_0
+Text HLabel 6300 2450 0    50   Input ~ 0
+PULS_1
+Text HLabel 6300 2550 0    50   Input ~ 0
+PULS_2
+Text HLabel 6300 2650 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 6300 2750 0    50   Output ~ 0
+SPI_MOSI
+Text HLabel 6300 2950 0    50   Input ~ 0
+PULS_3
+Wire Wire Line
+	6700 2350 6300 2350
+Wire Wire Line
+	6700 2450 6300 2450
+Wire Wire Line
+	6700 2550 6300 2550
+Wire Wire Line
+	6700 2650 6300 2650
+Wire Wire Line
+	6700 2750 6300 2750
+NoConn ~ 6700 3050
+NoConn ~ 6700 3150
+NoConn ~ 6700 3250
+NoConn ~ 6700 3350
+NoConn ~ 6700 3450
+NoConn ~ 6700 3550
+NoConn ~ 6700 3650
+NoConn ~ 6700 3750
+NoConn ~ 6700 4500
+NoConn ~ 6700 4600
+NoConn ~ 6700 4700
+NoConn ~ 6700 5000
+NoConn ~ 6700 5100
+NoConn ~ 6700 5200
+NoConn ~ 6700 5300
+NoConn ~ 6700 5400
+Text HLabel 6300 5500 0    50   Output ~ 0
+LED1
+Text HLabel 6300 5600 0    50   Output ~ 0
+LED2
+Text HLabel 6300 5700 0    50   Output ~ 0
+LED3
+Wire Wire Line
+	6700 5500 6300 5500
+Wire Wire Line
+	6700 5600 6300 5600
+Wire Wire Line
+	6700 5700 6300 5700
+NoConn ~ 6700 5800
+NoConn ~ 6700 5950
+NoConn ~ 6700 6250
+NoConn ~ 6700 6350
+NoConn ~ 6700 6450
+NoConn ~ 6700 6550
+NoConn ~ 6700 6650
+NoConn ~ 6700 6750
+NoConn ~ 6700 2850
+NoConn ~ 6700 2100
+NoConn ~ 6700 2200
+NoConn ~ 6700 3850
+NoConn ~ 6700 3950
+NoConn ~ 6700 4050
+NoConn ~ 6700 4150
+NoConn ~ 6700 4250
+NoConn ~ 6700 4350
+NoConn ~ 6700 6050
+NoConn ~ 6700 6150
+NoConn ~ 6700 6900
+NoConn ~ 6700 7000
+NoConn ~ 6700 7100
+NoConn ~ 6700 7200
+NoConn ~ 6700 7300
+NoConn ~ 6700 7400
+NoConn ~ 6700 7500
+NoConn ~ 6700 7600
+NoConn ~ 6700 7700
+NoConn ~ 6700 7800
+NoConn ~ 6700 7900
+NoConn ~ 6700 8050
+Wire Wire Line
+	6700 8150 6300 8150
+Wire Wire Line
+	6700 8250 6300 8250
+Wire Wire Line
+	6700 8400 6300 8400
+Wire Wire Line
+	6700 8500 6300 8500
+Text Label 6300 8250 0    50   ~ 0
+RTCX2
+Text Label 6300 8400 0    50   ~ 0
+XTAL1
+Text Label 6300 8500 0    50   ~ 0
+XTAL2
+NoConn ~ 6700 8700
+NoConn ~ 6700 8800
+$Comp
+L power:GND #PWR?
+U 1 1 5BAA5B3A
+P 7650 10000
+F 0 "#PWR?" H 7650 9750 50  0001 C CNN
+F 1 "GND" H 7655 9827 50  0000 C CNN
+F 2 "" H 7650 10000 50  0001 C CNN
+F 3 "" H 7650 10000 50  0001 C CNN
+	1    7650 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 9600 7650 9800
+Wire Wire Line
+	7750 9600 7750 9800
+Wire Wire Line
+	7750 9800 7650 9800
+Connection ~ 7650 9800
+Wire Wire Line
+	7650 9800 7650 10000
+Wire Wire Line
+	7850 9600 7850 9800
+Wire Wire Line
+	7850 9800 7750 9800
+Connection ~ 7750 9800
+Wire Wire Line
+	7950 9600 7950 9800
+Wire Wire Line
+	7950 9800 7850 9800
+Connection ~ 7850 9800
+$Comp
+L power:GNDA #PWR?
+U 1 1 5BAAC763
+P 8050 10000
+F 0 "#PWR?" H 8050 9750 50  0001 C CNN
+F 1 "GNDA" H 8055 9827 50  0000 C CNN
+F 2 "" H 8050 10000 50  0001 C CNN
+F 3 "" H 8050 10000 50  0001 C CNN
+	1    8050 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 10000 8050 9600
+NoConn ~ 8250 9600
+NoConn ~ 8450 9600
+NoConn ~ 9400 8450
+NoConn ~ 9400 8350
+NoConn ~ 9400 8250
+NoConn ~ 9400 8150
+NoConn ~ 9400 8050
+NoConn ~ 9400 7950
+NoConn ~ 9400 7850
+NoConn ~ 9400 7750
+Wire Wire Line
+	6700 2950 6300 2950
+Text Label 6300 8150 0    50   ~ 0
+RTCX1
+$Comp
+L TrackerAVL:LPC4337JBD144 U?
+U 1 1 5BA579FD
+P 7650 6450
+F 0 "U?" H 8650 3550 60  0000 C CNN
+F 1 "LPC4337JBD144" H 8950 3450 60  0000 C CNN
+F 2 "" H 7550 10400 60  0000 C CNN
+F 3 "" H 7550 10400 60  0000 C CNN
+	1    7650 6450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
