@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -154,23 +154,23 @@ Wire Wire Line
 	6100 2300 6700 2300
 Wire Wire Line
 	6100 2400 6700 2400
-Text HLabel 6700 1900 2    50   Output ~ 0
+Text HLabel 6700 1900 2    50   Input ~ 0
 DIG_OUT_1
-Text HLabel 6700 2000 2    50   Output ~ 0
+Text HLabel 6700 2000 2    50   Input ~ 0
 DIG_OUT_3
-Text HLabel 6700 2100 2    50   Output ~ 0
+Text HLabel 6700 2100 2    50   Input ~ 0
 DIG_OUT_3
-Text HLabel 6700 2200 2    50   Input ~ 0
+Text HLabel 6700 2200 2    50   Output ~ 0
 AN_IN_1
-Text HLabel 6700 2300 2    50   Input ~ 0
+Text HLabel 6700 2300 2    50   Output ~ 0
 AN_IN_2
-Text HLabel 6700 2400 2    50   Input ~ 0
+Text HLabel 6700 2400 2    50   Output ~ 0
 AN_IN_3
-Text HLabel 5000 2000 0    50   Input ~ 0
+Text HLabel 5000 2000 0    50   Output ~ 0
 DIG_IN_1
-Text HLabel 5000 2100 0    50   Input ~ 0
+Text HLabel 5000 2100 0    50   Output ~ 0
 DIG_IN_2
-Text HLabel 5000 2200 0    50   Input ~ 0
+Text HLabel 5000 2200 0    50   Output ~ 0
 DIG_IN_3
 Wire Wire Line
 	5000 1800 5600 1800
@@ -256,4 +256,8 @@ Text HLabel 5000 4900 0    50   Output ~ 0
 PROG_TX
 Text HLabel 5000 5000 0    50   Input ~ 0
 PROG_RX
+Wire Notes Line
+	4950 2950 3500 2950
+Text Notes 3500 2950 0    59   ~ 0
+PWR Display
 $EndSCHEMATC

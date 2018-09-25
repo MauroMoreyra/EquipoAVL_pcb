@@ -265,4 +265,6 @@ Wire Notes Line
 	6900 3600 7950 3600
 Wire Notes Line
 	6900 4800 7950 4800
+Text Notes 4150 2450 0    59   ~ 0
+EVALUAR FUENTE... Poner mc34063 o switching similar?\no un regulador lineal? Validar tensión máx de entrada.
 $EndSCHEMATC
