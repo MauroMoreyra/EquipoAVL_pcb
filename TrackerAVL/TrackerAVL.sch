@@ -78,4 +78,48 @@ F0 "Fuente" 50
 F1 "fuente.sch" 50
 F2 "VBAT" I R 3300 1300 50 
 $EndSheet
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5BAF3FC6
+P 2000 6900
+F 0 "H101" H 2100 6946 50  0000 L CNN
+F 1 "MountingHole" H 2100 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 6900 50  0001 C CNN
+F 3 "~" H 2000 6900 50  0001 C CNN
+	1    2000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5BAF4006
+P 2800 6900
+F 0 "H103" H 2900 6946 50  0000 L CNN
+F 1 "MountingHole" H 2900 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 6900 50  0001 C CNN
+F 3 "~" H 2800 6900 50  0001 C CNN
+	1    2800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5BAF4050
+P 2000 7200
+F 0 "H102" H 2100 7246 50  0000 L CNN
+F 1 "MountingHole" H 2100 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 7200 50  0001 C CNN
+F 3 "~" H 2000 7200 50  0001 C CNN
+	1    2000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5BAF40B1
+P 2800 7200
+F 0 "H104" H 2900 7246 50  0000 L CNN
+F 1 "MountingHole" H 2900 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 7200 50  0001 C CNN
+F 3 "~" H 2800 7200 50  0001 C CNN
+	1    2800 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x07_Top_Bottom J?
+L Connector_Generic:Conn_02x07_Top_Bottom J401
 U 1 1 5BA83A7B
 P 5800 2100
-F 0 "J?" H 5850 1700 50  0000 C CNN
+F 0 "J401" H 5850 1700 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 5850 1600 50  0000 C CNN
 F 2 "Connector_Molex_MM:Molex_Micro-Fit_3.0_43045-1406_2x07-1MP_P3.00mm_Horizontal" H 5800 2100 50  0001 C CNN
 F 3 "~" H 5800 2100 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "~" H 5800 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J403
 U 1 1 5BA83B5F
 P 5800 4900
-F 0 "J?" H 5880 4892 50  0000 L CNN
+F 0 "J403" H 5880 4892 50  0000 L CNN
 F 1 "Conn_01x04" H 5880 4801 50  0000 L CNN
 F 2 "Connector_Molex_MM:Molex_Pico_SPOX_87438-0443_1x04" H 5800 4900 50  0001 C CNN
 F 3 "~" H 5800 4900 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "~" H 5800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x15 J?
+L Connector_Generic:Conn_01x15 J402
 U 1 1 5BA83CA7
 P 5800 3600
-F 0 "J?" H 5880 3642 50  0000 L CNN
+F 0 "J402" H 5880 3642 50  0000 L CNN
 F 1 "Conn_01x15" H 5880 3551 50  0000 L CNN
 F 2 "Connector_Molex_MM:Molex_Pico_SPOX_87438-0443_1x15" H 5800 3600 50  0001 C CNN
 F 3 "~" H 5800 3600 50  0001 C CNN
@@ -64,10 +64,10 @@ GND_CONN_1
 Text Label 5050 2400 0    50   ~ 0
 GND_CONN_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0401
 U 1 1 5BA977C8
 P 5050 1300
-F 0 "#PWR?" H 5050 1050 50  0001 C CNN
+F 0 "#PWR0401" H 5050 1050 50  0001 C CNN
 F 1 "GND" H 5055 1127 50  0000 C CNN
 F 2 "" H 5050 1300 50  0001 C CNN
 F 3 "" H 5050 1300 50  0001 C CNN
