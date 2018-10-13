@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L mpcie:MPCIE-Socket U701
-U 1 1 5BA7E0EE
-P 5900 3250
-F 0 "U701" H 5900 4793 60  0000 C CNN
-F 1 "MPCIE-Socket" H 5900 4687 60  0000 C CNN
-F 2 "mpcie:mpcie-socket" H 5900 4581 60  0000 C CNN
-F 3 "" H 6000 2250 60  0000 C CNN
-	1    5900 3250
-	1    0    0    -1  
-$EndComp
 Text HLabel 4350 4700 0    50   Output ~ 0
 WAKE_HOST
 NoConn ~ 5250 4600
@@ -365,8 +354,6 @@ Wire Notes Line
 	8500 3500 7450 3500
 Text Notes 7650 3500 0    59   ~ 0
 Señales de control
-Text Notes 6850 4300 0    118  ~ 0
-FALTA DEFINIR
 Wire Wire Line
 	10250 1150 10250 1250
 Wire Wire Line
@@ -392,4 +379,27 @@ Wire Wire Line
 	9900 2650 9900 2800
 Wire Wire Line
 	9050 2800 9900 2800
+$Comp
+L mpcie:MPCIE-Socket U701
+U 1 1 5BA7E0EE
+P 5900 3250
+F 0 "U701" H 5900 4793 60  0000 C CNN
+F 1 "MPCIE-Socket" H 5900 4687 60  0000 C CNN
+F 2 "mpcie:mpcie-socket" H 5900 4581 60  0000 C CNN
+F 3 "" H 6000 2250 60  0000 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 4100
+NoConn ~ 6550 4200
+NoConn ~ 6550 4300
+NoConn ~ 6550 4400
+Text Notes 7300 4350 0    59   ~ 0
+SIM Holder ya está sobre\nel módulo UC20, por lo\ntanto estas salidas no se\nconectan
+Wire Notes Line
+	6600 3950 8500 3950
+Wire Notes Line
+	6600 4500 8500 4500
+Wire Notes Line
+	8500 3950 8500 4500
 $EndSCHEMATC

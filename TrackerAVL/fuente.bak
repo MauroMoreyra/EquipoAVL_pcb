@@ -251,7 +251,7 @@ Wire Wire Line
 	7750 4450 7750 4550
 Text Notes 7100 3500 0    59   ~ 0
 Nets de PWR para ADC
-Text HLabel 3550 2100 0    50   Input ~ 0
+Text HLabel 1650 1800 0    50   Input ~ 0
 VBAT
 Wire Wire Line
 	7400 4450 7750 4450
@@ -345,27 +345,25 @@ Wire Notes Line
 $Comp
 L edu-ciaa-nxp:DIODESCH D801
 U 1 1 5BAC5FAB
-P 3950 2100
-F 0 "D801" H 3950 2293 40  0000 C CNN
-F 1 "PMEG3020EH" H 3950 2217 40  0000 C CNN
-F 2 "Libreria_EDU_CIAA_NXP:DO-214AA(SMB)" H 3950 2232 60  0001 C CNN
-F 3 "" H 3950 2100 60  0000 C CNN
-	1    3950 2100
+P 1950 2600
+F 0 "D801" H 1950 2793 40  0000 C CNN
+F 1 "PMEG3020EH" H 1950 2717 40  0000 C CNN
+F 2 "Libreria_EDU_CIAA_NXP:DO-214AA(SMB)" H 1950 2732 60  0001 C CNN
+F 3 "" H 1950 2600 60  0000 C CNN
+	1    1950 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Polyfuse F801
 U 1 1 5BAC60A8
-P 4500 2100
-F 0 "F801" V 4725 2100 50  0000 C CNN
-F 1 "Polyfuse" V 4634 2100 50  0000 C CNN
-F 2 "" H 4550 1900 50  0001 L CNN
-F 3 "~" H 4500 2100 50  0001 C CNN
-	1    4500 2100
+P 2450 2600
+F 0 "F801" V 2675 2600 50  0000 C CNN
+F 1 "Polyfuse" V 2584 2600 50  0000 C CNN
+F 2 "" H 2500 2400 50  0001 L CNN
+F 3 "~" H 2450 2600 50  0001 C CNN
+	1    2450 2600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3550 2100 3750 2100
 Wire Wire Line
 	4150 2100 4350 2100
 $Comp
@@ -500,4 +498,119 @@ Wire Wire Line
 	7100 2100 6850 2100
 Wire Wire Line
 	3450 3900 3450 4050
+Text HLabel 1650 1700 0    50   Input ~ 0
+IGN
+$Comp
+L EquipoAVL:IRF7105 U803
+U 1 1 5BBADAEA
+P 2950 1700
+F 0 "U803" H 2950 2067 50  0000 C CNN
+F 1 "IRF7105" H 2950 1976 50  0000 C CNN
+F 2 "Libreria_EDU_CIAA_NXP:SOIC-8" H 2950 1700 50  0001 C CNN
+F 3 "" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BBB5359
+P 2000 1900
+AR Path="/5BA5700E/5BBB5359" Ref="R?"  Part="1" 
+AR Path="/5BA56FF8/5BBB5359" Ref="R801"  Part="1" 
+F 0 "R801" V 2100 1950 50  0000 L CNN
+F 1 "10K" V 2100 1750 50  0000 L CNN
+F 2 "" V 1930 1900 50  0001 C CNN
+F 3 "~" H 2000 1900 50  0001 C CNN
+	1    2000 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 1800 1800 1800
+Wire Wire Line
+	2150 1900 2500 1900
+Wire Wire Line
+	1850 1900 1800 1900
+Wire Wire Line
+	1800 1900 1800 1800
+Connection ~ 1800 1800
+Wire Wire Line
+	1800 1800 2550 1800
+Wire Wire Line
+	3750 2100 3650 2100
+Wire Wire Line
+	3650 2100 3650 1900
+Wire Wire Line
+	3350 1800 3650 1800
+Wire Wire Line
+	3350 1900 3650 1900
+Connection ~ 3650 1900
+Wire Wire Line
+	3650 1900 3650 1800
+Wire Wire Line
+	3350 1600 3400 1600
+Wire Wire Line
+	3400 1600 3400 1700
+Wire Wire Line
+	3400 2100 2500 2100
+Wire Wire Line
+	2500 2100 2500 1900
+Connection ~ 2500 1900
+Wire Wire Line
+	2500 1900 2550 1900
+Wire Wire Line
+	3350 1700 3400 1700
+Connection ~ 3400 1700
+Wire Wire Line
+	3400 1700 3400 2100
+$Comp
+L power:GND #PWR0101
+U 1 1 5BC0B5DC
+P 2500 1450
+F 0 "#PWR0101" H 2500 1200 50  0001 C CNN
+F 1 "GND" H 2505 1277 50  0000 C CNN
+F 2 "" H 2500 1450 50  0001 C CNN
+F 3 "" H 2500 1450 50  0001 C CNN
+	1    2500 1450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 1600 2500 1600
+Wire Wire Line
+	2500 1600 2500 1450
+Wire Wire Line
+	1650 1700 2550 1700
+Text Notes 1550 1050 0    50   ~ 0
+Testear circuito con 12V ign.\nRevisar, si tengo solo 3.3v en toda la placa, \nentonces saco la parte de la fuente de 3.3v\n(parte de abajo de este sch).
+$Comp
+L power:+BATT #PWR?
+U 1 1 5BC0FCB4
+P 3650 1450
+F 0 "#PWR?" H 3650 1300 50  0001 C CNN
+F 1 "+BATT" H 3665 1623 50  0000 C CNN
+F 2 "" H 3650 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1450 3650 1500
+Connection ~ 3650 1800
+$Comp
+L edu-ciaa-nxp:PWR_FLAG #FLG?
+U 1 1 5BC11B0E
+P 3900 1400
+F 0 "#FLG?" H 3900 1495 30  0001 C CNN
+F 1 "PWR_FLAG" H 3900 1608 30  0000 C CNN
+F 2 "" H 3900 1400 60  0000 C CNN
+F 3 "" H 3900 1400 60  0000 C CNN
+	1    3900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1400 3900 1500
+Wire Wire Line
+	3900 1500 3650 1500
+Connection ~ 3650 1500
+Wire Wire Line
+	3650 1500 3650 1800
 $EndSCHEMATC

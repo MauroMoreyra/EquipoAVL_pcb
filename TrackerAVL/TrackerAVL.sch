@@ -69,7 +69,7 @@ Wire Wire Line
 	6700 2650 8000 2650
 Wire Wire Line
 	8000 2750 6700 2750
-Text Notes 8100 1350 0    71   ~ 14
+Text Notes 7800 1450 0    79   ~ 16
 Pendientes Equipo AVL\n> Transistor a speaker para pitido tipo buzzer.\n> IRF7105 a PWR_MDM.\n> Ver tema i2c, spi para display consola (mux?).\n> UART_DTR (uc20) a GPIO para manejo sleep mode.\n> Ver tema IO An./Dig. 
 $Sheet
 S 1800 1000 1500 600 
@@ -120,6 +120,72 @@ F 1 "MountingHole" H 2900 7155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 7200 50  0001 C CNN
 F 3 "~" H 2800 7200 50  0001 C CNN
 	1    2800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F101
+U 1 1 5BBA90D0
+P 3800 6900
+F 0 "F101" H 3900 6946 50  0000 L CNN
+F 1 "Fiducial" H 3900 6855 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 3800 6900 50  0001 C CNN
+F 3 "~" H 3800 6900 50  0001 C CNN
+	1    3800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F104
+U 1 1 5BBA95C7
+P 3800 7200
+F 0 "F104" H 3900 7246 50  0000 L CNN
+F 1 "Fiducial" H 3900 7155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F102
+U 1 1 5BBA95EF
+P 4300 6900
+F 0 "F102" H 4400 6946 50  0000 L CNN
+F 1 "Fiducial" H 4400 6855 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 4300 6900 50  0001 C CNN
+F 3 "~" H 4300 6900 50  0001 C CNN
+	1    4300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F103
+U 1 1 5BBA9625
+P 4800 6900
+F 0 "F103" H 4900 6946 50  0000 L CNN
+F 1 "Fiducial" H 4900 6855 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 4800 6900 50  0001 C CNN
+F 3 "~" H 4800 6900 50  0001 C CNN
+	1    4800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F105
+U 1 1 5BBA9655
+P 4300 7200
+F 0 "F105" H 4400 7246 50  0000 L CNN
+F 1 "Fiducial" H 4400 7155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 4300 7200 50  0001 C CNN
+F 3 "~" H 4300 7200 50  0001 C CNN
+	1    4300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole F106
+U 1 1 5BBA967F
+P 4800 7200
+F 0 "F106" H 4900 7246 50  0000 L CNN
+F 1 "Fiducial" H 4900 7155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 4800 7200 50  0001 C CNN
+F 3 "~" H 4800 7200 50  0001 C CNN
+	1    4800 7200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
