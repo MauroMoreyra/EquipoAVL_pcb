@@ -579,7 +579,7 @@ Wire Wire Line
 	2500 1600 2500 1450
 Wire Wire Line
 	1650 1700 2550 1700
-Text Notes 1550 1050 0    50   ~ 0
+Text Notes 1550 1050 0    79   ~ 16
 Testear circuito con 12V ign.\nRevisar, si tengo solo 3.3v en toda la placa, \nentonces saco la parte de la fuente de 3.3v\n(parte de abajo de este sch).
 $Comp
 L power:+BATT #PWR?

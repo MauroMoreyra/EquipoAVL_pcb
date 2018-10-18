@@ -69,7 +69,7 @@ Wire Wire Line
 	6700 2650 8000 2650
 Wire Wire Line
 	8000 2750 6700 2750
-Text Notes 8100 1350 0    71   ~ 14
+Text Notes 7800 1450 0    79   ~ 16
 Pendientes Equipo AVL\n> Transistor a speaker para pitido tipo buzzer.\n> IRF7105 a PWR_MDM.\n> Ver tema i2c, spi para display consola (mux?).\n> UART_DTR (uc20) a GPIO para manejo sleep mode.\n> Ver tema IO An./Dig. 
 $Sheet
 S 1800 1000 1500 600 
