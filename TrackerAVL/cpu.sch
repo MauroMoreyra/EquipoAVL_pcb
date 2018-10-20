@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 8
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -24,17 +24,17 @@ Wire Wire Line
 	6700 4900 6300 4900
 NoConn ~ 6700 1850
 Text HLabel 6300 2350 0    50   Input ~ 0
-PULS_0
+TEC_0
 Text HLabel 6300 2450 0    50   Input ~ 0
-PULS_1
+TEC_1
 Text HLabel 6300 2550 0    50   Input ~ 0
-PULS_2
+TEC_2
 Text HLabel 6300 2650 0    50   Input ~ 0
 SPI_MISO
 Text HLabel 6300 2750 0    50   Output ~ 0
 SPI_MOSI
 Text HLabel 6300 2950 0    50   Input ~ 0
-PULS_3
+TEC_3
 Wire Wire Line
 	6700 2350 6300 2350
 Wire Wire Line
@@ -61,12 +61,6 @@ NoConn ~ 6700 5100
 NoConn ~ 6700 5200
 NoConn ~ 6700 5300
 NoConn ~ 6700 5400
-Text HLabel 6300 5500 0    50   Output ~ 0
-LED1
-Text HLabel 6300 5600 0    50   Output ~ 0
-LED2
-Text HLabel 6300 5700 0    50   Output ~ 0
-LED3
 Wire Wire Line
 	6700 5500 6300 5500
 Wire Wire Line
@@ -250,4 +244,30 @@ Wire Wire Line
 	10100 7200 10500 7200
 NoConn ~ 9400 6800
 NoConn ~ 9400 6900
+Text HLabel 14000 2600 2    50   Output ~ 0
+DIG_OUT_1
+Text HLabel 14000 2700 2    50   Output ~ 0
+DIG_OUT_2
+Text HLabel 14000 2500 2    50   Output ~ 0
+DIG_OUT_0
+Wire Notes Line
+	6100 5500 6100 5700
+Text Notes 6000 5650 2    50   ~ 0
+LEDS\n
+Text HLabel 14000 3000 2    50   Input ~ 0
+AN_IN_0
+Text HLabel 14000 3100 2    50   Input ~ 0
+AN_IN_1
+Text HLabel 14000 3200 2    50   Input ~ 0
+AN_IN_2
+Text HLabel 14000 3550 2    50   Input ~ 0
+DIG_IN_1
+Text HLabel 14000 3650 2    50   Input ~ 0
+DIG_IN_2
+Text HLabel 14000 3450 2    50   Input ~ 0
+DIG_IN_0
+Text HLabel 9800 3850 2    50   BiDi ~ 0
+GPIO8
+Wire Wire Line
+	9400 3850 9800 3850
 $EndSCHEMATC
