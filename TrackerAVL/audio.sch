@@ -53,10 +53,10 @@ Text HLabel 2575 4925 0    50   Output ~ 0
 ADCOUT
 Text HLabel 2575 5050 0    50   Input ~ 0
 DACIN
-Text HLabel 2575 5175 0    50   BiDi ~ 0
+Text HLabel 2575 5175 0    50   Input ~ 0
 FS
 Text HLabel 2575 5300 0    50   Input ~ 0
-BCLK
+BCLK-MCLK
 Text HLabel 5450 4075 2    50   Input ~ 0
 SCLK
 Text HLabel 5450 3975 2    50   BiDi ~ 0

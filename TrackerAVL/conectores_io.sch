@@ -260,4 +260,28 @@ Wire Notes Line
 	4950 2950 3500 2950
 Text Notes 3500 2950 0    59   ~ 0
 PWR Display
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5BCF30C6
+P 4850 950
+F 0 "#FLG?" H 4850 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 4850 1124 50  0000 C CNN
+F 2 "" H 4850 950 50  0001 C CNN
+F 3 "~" H 4850 950 50  0001 C CNN
+	1    4850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 950  4850 1000
+Wire Wire Line
+	4850 1000 5050 1000
+Connection ~ 5050 1000
+Text HLabel 4550 3500 0    50   Output ~ 0
+DISP_1
+Text HLabel 4550 3600 0    50   Output ~ 0
+DISP_2
+Text HLabel 4550 3700 0    50   Output ~ 0
+DISP_3
+Text HLabel 4550 3800 0    50   Output ~ 0
+DISP_4
 $EndSCHEMATC
