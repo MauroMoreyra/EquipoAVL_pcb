@@ -19,32 +19,40 @@ S 3700 1000 2000 5400
 U 5BA56FC1
 F0 "CPU" 50
 F1 "cpu.sch" 50
-F2 "UART_TX" O R 5700 2750 50 
-F3 "UART_RX" I R 5700 2650 50 
-F4 "TEC_0" I L 3700 3900 50 
-F5 "TEC_1" I L 3700 4000 50 
-F6 "TEC_2" I L 3700 4100 50 
-F7 "SPI_MISO" I R 5700 3900 50 
-F8 "SPI_MOSI" O R 5700 4000 50 
-F9 "TEC_3" I L 3700 4200 50 
-F10 "I2C_SCL" O L 3700 5400 50 
-F11 "I2C_SCA" B L 3700 5500 50 
-F12 "DIG_OUT_1" O L 3700 2400 50 
-F13 "DIG_OUT_2" O L 3700 2500 50 
-F14 "DIG_OUT_0" O L 3700 2300 50 
-F15 "AN_IN_0" I L 3700 2700 50 
-F16 "AN_IN_1" I L 3700 2800 50 
-F17 "AN_IN_2" I L 3700 2900 50 
-F18 "DIG_IN_1" I L 3700 3200 50 
-F19 "DIG_IN_2" I L 3700 3300 50 
-F20 "DIG_IN_0" I L 3700 3100 50 
-F21 "GPIO8" B L 3700 4900 50 
+F2 "TEC_0" I L 3700 3900 50 
+F3 "TEC_1" I L 3700 4000 50 
+F4 "TEC_2" I L 3700 4100 50 
+F5 "SPI_MISO" I L 3700 5800 50 
+F6 "SPI_MOSI" O L 3700 5900 50 
+F7 "TEC_3" I L 3700 4200 50 
+F8 "I2C_SCL" O L 3700 5400 50 
+F9 "I2C_SCA" B L 3700 5500 50 
+F10 "DIG_OUT_1" O L 3700 2400 50 
+F11 "DIG_OUT_2" O L 3700 2500 50 
+F12 "DIG_OUT_0" O L 3700 2300 50 
+F13 "AN_IN_0" I L 3700 2700 50 
+F14 "AN_IN_1" I L 3700 2800 50 
+F15 "AN_IN_2" I L 3700 2900 50 
+F16 "DIG_IN_1" I L 3700 3200 50 
+F17 "DIG_IN_2" I L 3700 3300 50 
+F18 "DIG_IN_0" I L 3700 3100 50 
+F19 "IBUTTON" B L 3700 4900 50 
+F20 "IGN" I L 3700 3600 50 
+F21 "VBAT" I L 3700 3500 50 
+F22 "U3_TX" O R 5700 2750 50 
+F23 "U3_RX" I R 5700 2650 50 
+F24 "RS232_TXD" O L 3700 5100 50 
+F25 "RS232_RXD" I L 3700 5200 50 
+F26 "SPI_SCK" O L 3700 6000 50 
 $EndSheet
 $Sheet
-S 6625 950  500  150 
+S 6600 3850 1500 850 
 U 5BA57001
 F0 "Acelerómetro" 50
 F1 "acelerometro.sch" 50
+F2 "I2C_SCL" I L 6600 4100 50 
+F3 "I2C_SDA" B L 6600 4200 50 
+F4 "INT" O L 6600 4400 50 
 $EndSheet
 $Sheet
 S 9000 1975 1500 1425
@@ -81,8 +89,8 @@ F12 "PERST" I L 6600 2450 50
 F13 "I2C_SCL" O R 8100 2250 50 
 F14 "I2C_SDA" B R 8100 2150 50 
 $EndSheet
-Text Notes 6500 4750 0    79   ~ 16
-Pendientes Equipo AVL\n> Transistor a speaker para pitido tipo buzzer.\n> IRF7105 a PWR_MDM.\n> Ver tema i2c, spi para display consola (mux?).\n> UART_DTR (uc20) a GPIO para manejo sleep mode.\n> Ver tema IO An./Dig. \n> 0.8mm de Margen y de Ancho de pista. Menor margen: 0.5mm.\n> Ej: MAYER tiene un margen mínimo de 0.3mm, pero no conviene usarlo.
+Text Notes 6300 6150 0    79   ~ 16
+Pendientes Equipo AVL\n> Transistor a speaker para pitido tipo buzzer.\n> IRF7105 a PWR_MDM.\n> Ver tema i2c, spi para display consola (mux?).\n> UART_DTR (uc20) a GPIO para manejo sleep mode. \n> 0.8mm de Margen y de Ancho de pista. Menor margen: 0.5mm.\n> Ej: MAYER tiene un margen mínimo de 0.3mm, pero no conviene usarlo.
 $Sheet
 S 1300 1000 1500 600 
 U 5BA56FF8
@@ -279,10 +287,6 @@ F25 "DIG_IN_0" O R 2800 3100 50
 F26 "TEC_0" O R 2800 3900 50 
 F27 "DISP_0" B R 2800 5400 50 
 $EndSheet
-Wire Wire Line
-	2800 3500 3150 3500
-Wire Wire Line
-	2800 3600 3150 3600
 Text Label 3150 3500 2    50   ~ 0
 VBAT
 Text Label 3150 3600 2    50   ~ 0
@@ -293,10 +297,6 @@ Wire Wire Line
 	2800 4500 3150 4500
 Wire Wire Line
 	2800 4600 3150 4600
-Wire Wire Line
-	2800 5100 3150 5100
-Wire Wire Line
-	2800 5200 3150 5200
 Wire Wire Line
 	2800 5600 3150 5600
 Wire Wire Line
@@ -343,4 +343,16 @@ Wire Wire Line
 	2800 5500 3700 5500
 Wire Wire Line
 	2800 4900 3700 4900
+Wire Wire Line
+	2800 5100 3700 5100
+Wire Wire Line
+	2800 5200 3700 5200
+Wire Wire Line
+	2800 3500 3700 3500
+Wire Wire Line
+	2800 3600 3700 3600
+Text Notes 7000 4250 0    79   ~ 16
+Cuidado que no entre en\nconflicto con display I2C
+Text Notes 6600 3750 0    79   ~ 16
+SHEET VALIDADA OK
 $EndSCHEMATC
