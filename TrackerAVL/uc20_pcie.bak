@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -14,8 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4350 4700 0    50   Output ~ 0
-WAKE_HOST
 NoConn ~ 5250 4600
 NoConn ~ 5250 4500
 NoConn ~ 5250 4400
@@ -131,8 +129,8 @@ Text Notes 3100 2000 0    59   ~ 0
 Audio driver
 Text Notes 3100 4000 0    59   ~ 0
 Comunicación serial
-Text Notes 3100 4600 0    59   ~ 0
-Señal para despertar al uC
+Text Notes 3100 4700 0    59   ~ 0
+Señal para despertar al uC (no usado)
 Wire Wire Line
 	6550 2100 7050 2100
 Text Label 7050 2100 2    50   ~ 0
@@ -163,21 +161,11 @@ Wire Wire Line
 Wire Wire Line
 	5250 2100 4350 2100
 Wire Wire Line
-	6550 3700 7450 3700
-Wire Wire Line
 	6550 3600 7450 3600
-Text HLabel 7450 3700 2    50   Input ~ 0
-W_DISABLE
 Text HLabel 7450 3600 2    50   Input ~ 0
 PERST
 Text Label 6700 3600 0    50   ~ 0
 PERST
-Text Label 6700 3700 0    50   ~ 0
-W_DISABLE
-Text Label 4750 4700 0    50   ~ 0
-WAKE
-Wire Wire Line
-	4350 4700 5250 4700
 $Comp
 L Device:R R701
 U 1 1 5BAB0D64
@@ -315,12 +303,6 @@ Wire Notes Line
 NoConn ~ 6550 2800
 NoConn ~ 6550 2900
 Wire Notes Line
-	4350 4750 3100 4750
-Wire Notes Line
-	3100 4750 3100 4600
-Wire Notes Line
-	3100 4600 4350 4600
-Wire Notes Line
 	4350 4250 3100 4250
 Wire Notes Line
 	3100 4000 3100 4250
@@ -402,4 +384,12 @@ Wire Notes Line
 	6600 4500 8500 4500
 Wire Notes Line
 	8500 3950 8500 4500
+NoConn ~ 5250 4700
+Wire Notes Line
+	3100 4700 5200 4700
+NoConn ~ 6550 3700
+Wire Notes Line
+	6600 3700 7050 3700
+Text Notes 7050 3700 2    50   ~ 0
+W_DISABLE
 $EndSCHEMATC
