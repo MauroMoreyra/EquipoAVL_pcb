@@ -1,4 +1,4 @@
-(module mpcie-socket (layer F.Cu) (tedit 5BD4BDE8)
+(module mpcie-socket-latch (layer F.Cu) (tedit 5BD4BDE8)
   (tags "mpci, pci, pci express")
   (fp_text reference Ref** (at 30.45 2.45 90) (layer F.SilkS)
     (effects (font (size 1.524 1.524) (thickness 0.15)))

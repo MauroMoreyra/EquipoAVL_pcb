@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -23,10 +23,10 @@ NoConn ~ 6550 3500
 NoConn ~ 6550 2500
 NoConn ~ 6550 2400
 $Comp
-L power:GND #PWR0701
+L power:GND #PWR0601
 U 1 1 5BA8AA56
 P 1200 1500
-F 0 "#PWR0701" H 1200 1250 50  0001 C CNN
+F 0 "#PWR0601" H 1200 1250 50  0001 C CNN
 F 1 "GND" H 1205 1327 50  0000 C CNN
 F 2 "" H 1200 1500 50  0001 C CNN
 F 3 "" H 1200 1500 50  0001 C CNN
@@ -129,8 +129,6 @@ Text Notes 3100 2000 0    59   ~ 0
 Audio driver
 Text Notes 3100 4000 0    59   ~ 0
 Comunicación serial
-Text Notes 3100 4700 0    59   ~ 0
-Señal para despertar al uC (no usado)
 Wire Wire Line
 	6550 2100 7050 2100
 Text Label 7050 2100 2    50   ~ 0
@@ -167,53 +165,19 @@ PERST
 Text Label 6700 3600 0    50   ~ 0
 PERST
 $Comp
-L Device:R R701
-U 1 1 5BAB0D64
-P 9550 1400
-F 0 "R701" H 9620 1446 50  0000 L CNN
-F 1 "10K" H 9620 1355 50  0000 L CNN
-F 2 "" V 9480 1400 50  0001 C CNN
-F 3 "~" H 9550 1400 50  0001 C CNN
-	1    9550 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R703
+L Device:R R601
 U 1 1 5BAB0EDA
-P 9900 1400
-F 0 "R703" H 9970 1446 50  0000 L CNN
-F 1 "10K" H 9970 1355 50  0000 L CNN
-F 2 "" V 9830 1400 50  0001 C CNN
-F 3 "~" H 9900 1400 50  0001 C CNN
-	1    9900 1400
+P 9500 1400
+F 0 "R601" H 9570 1446 50  0000 L CNN
+F 1 "10K" H 9570 1355 50  0000 L CNN
+F 2 "" V 9430 1400 50  0001 C CNN
+F 3 "~" H 9500 1400 50  0001 C CNN
+	1    9500 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R705
-U 1 1 5BAB0F0C
-P 10250 1400
-F 0 "R705" H 10320 1446 50  0000 L CNN
-F 1 "10K" H 10320 1355 50  0000 L CNN
-F 2 "" V 10180 1400 50  0001 C CNN
-F 3 "~" H 10250 1400 50  0001 C CNN
-	1    10250 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 1150 9550 1150
-Wire Wire Line
-	9550 1550 9550 1600
-Wire Wire Line
-	9550 1600 9050 1600
-Text Label 9050 1600 0    50   ~ 0
-WAKE
 Text Label 9050 1700 0    50   ~ 0
 W_DISABLE
-Text Label 9050 1800 0    50   ~ 0
-PERST
-Wire Wire Line
-	9550 1150 9550 1250
-Text Notes 8950 1000 0    59   ~ 0
+Text Notes 8950 950  0    59   ~ 0
 Pull-ups +3.3V
 NoConn ~ 6550 3300
 Wire Wire Line
@@ -229,10 +193,10 @@ I2C_SDA
 Text Label 6700 3200 0    50   ~ 0
 I2C_SCL
 $Comp
-L Device:R R702
+L Device:R R602
 U 1 1 5BAC7583
 P 9550 2500
-F 0 "R702" H 9620 2546 50  0000 L CNN
+F 0 "R602" H 9620 2546 50  0000 L CNN
 F 1 "10K" H 9620 2455 50  0000 L CNN
 F 2 "" V 9480 2500 50  0001 C CNN
 F 3 "~" H 9550 2500 50  0001 C CNN
@@ -240,18 +204,16 @@ F 3 "~" H 9550 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R704
+L Device:R R603
 U 1 1 5BAC758A
 P 9900 2500
-F 0 "R704" H 9970 2546 50  0000 L CNN
+F 0 "R603" H 9970 2546 50  0000 L CNN
 F 1 "10K" H 9970 2455 50  0000 L CNN
 F 2 "" V 9830 2500 50  0001 C CNN
 F 3 "~" H 9900 2500 50  0001 C CNN
 	1    9900 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9050 2250 9550 2250
 Wire Wire Line
 	9550 2650 9550 2700
 Wire Wire Line
@@ -260,46 +222,38 @@ Text Label 9050 2800 0    50   ~ 0
 I2C_SCL
 Wire Wire Line
 	9550 2250 9550 2350
-Text Notes 8950 2100 0    59   ~ 0
+Text Notes 8950 2050 0    59   ~ 0
 Pull-ups +1.8V
 Wire Notes Line
-	8950 1000 9650 1000
+	8950 950  9650 950 
 Wire Notes Line
-	8950 1850 9650 1850
-Wire Notes Line
-	8950 2100 9650 2100
+	8950 2050 9650 2050
 Wire Notes Line
 	8950 2850 9650 2850
 $Comp
-L power:+1V8 #PWR0703
+L power:+1V8 #PWR0603
 U 1 1 5BAD062F
-P 9050 2250
-F 0 "#PWR0703" H 9050 2100 50  0001 C CNN
-F 1 "+1V8" H 9200 2300 50  0000 C CNN
-F 2 "" H 9050 2250 50  0001 C CNN
-F 3 "" H 9050 2250 50  0001 C CNN
-	1    9050 2250
+P 9550 2200
+F 0 "#PWR0603" H 9550 2050 50  0001 C CNN
+F 1 "+1V8" H 9700 2250 50  0000 C CNN
+F 2 "" H 9550 2200 50  0001 C CNN
+F 3 "" H 9550 2200 50  0001 C CNN
+	1    9550 2200
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	8950 1000 8950 1850
 $Comp
-L power:+3.3V #PWR0702
+L power:+3.3V #PWR0602
 U 1 1 5BAD7224
-P 9050 1150
-F 0 "#PWR0702" H 9050 1000 50  0001 C CNN
-F 1 "+3.3V" H 9200 1200 50  0000 C CNN
-F 2 "" H 9050 1150 50  0001 C CNN
-F 3 "" H 9050 1150 50  0001 C CNN
-	1    9050 1150
+P 9500 1100
+F 0 "#PWR0602" H 9500 950 50  0001 C CNN
+F 1 "+3.3V" H 9650 1150 50  0000 C CNN
+F 2 "" H 9500 1100 50  0001 C CNN
+F 3 "" H 9500 1100 50  0001 C CNN
+	1    9500 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 9550 1150
-Connection ~ 9550 2250
 Text Label 9050 2700 0    50   ~ 0
 I2C_SDA
-Wire Notes Line
-	8950 2850 8950 2100
 NoConn ~ 6550 2800
 NoConn ~ 6550 2900
 Wire Notes Line
@@ -337,22 +291,7 @@ Wire Notes Line
 Text Notes 7650 3500 0    59   ~ 0
 Señales de control
 Wire Wire Line
-	10250 1150 10250 1250
-Wire Wire Line
-	9550 1150 9900 1150
-Wire Wire Line
-	10250 1550 10250 1800
-Wire Wire Line
-	9050 1800 10250 1800
-Wire Wire Line
-	9900 1550 9900 1700
-Wire Wire Line
-	9050 1700 9900 1700
-Wire Wire Line
-	9900 1250 9900 1150
-Connection ~ 9900 1150
-Wire Wire Line
-	9900 1150 10250 1150
+	9050 1700 9500 1700
 Wire Wire Line
 	9900 2250 9900 2350
 Wire Wire Line
@@ -362,12 +301,12 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9900 2800
 $Comp
-L mpcie:MPCIE-Socket U701
+L mpcie:MPCIE-Socket U601
 U 1 1 5BA7E0EE
 P 5900 3250
-F 0 "U701" H 5900 4793 60  0000 C CNN
-F 1 "MPCIE-Socket" H 5900 4687 60  0000 C CNN
-F 2 "mpcie:mpcie-socket" H 5900 4581 60  0000 C CNN
+F 0 "U601" H 5850 4700 60  0000 C CNN
+F 1 "MPCIE-Socket" H 5850 4600 60  0000 C CNN
+F 2 "mpcie:mpcie-socket" H 5900 4581 60  0001 C CNN
 F 3 "" H 6000 2250 60  0000 C CNN
 	1    5900 3250
 	1    0    0    -1  
@@ -384,12 +323,26 @@ Wire Notes Line
 	6600 4500 8500 4500
 Wire Notes Line
 	8500 3950 8500 4500
+Text Label 7050 3700 2    50   ~ 0
+W_DISABLE
+Wire Wire Line
+	7050 3700 6550 3700
 NoConn ~ 5250 4700
 Wire Notes Line
 	3100 4700 5200 4700
-NoConn ~ 6550 3700
+Text Notes 3100 4700 0    59   ~ 0
+Señal para despertar al uC (no usado)
+Wire Wire Line
+	9500 1550 9500 1700
+Wire Wire Line
+	9550 2250 9550 2200
+Connection ~ 9550 2250
+Wire Wire Line
+	9500 1100 9500 1250
 Wire Notes Line
-	6600 3700 7050 3700
-Text Notes 7050 3700 2    50   ~ 0
-W_DISABLE
+	8950 2050 8950 2850
+Wire Notes Line
+	8950 950  8950 1750
+Wire Notes Line
+	8950 1750 9650 1750
 $EndSCHEMATC
