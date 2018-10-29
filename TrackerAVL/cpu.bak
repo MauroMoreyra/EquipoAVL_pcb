@@ -36,8 +36,6 @@ NoConn ~ 6700 3700
 NoConn ~ 6700 3800
 NoConn ~ 6700 3900
 NoConn ~ 6700 4000
-NoConn ~ 6700 4850
-NoConn ~ 6700 4950
 NoConn ~ 6700 5250
 NoConn ~ 6700 5350
 NoConn ~ 6700 5450
@@ -138,7 +136,7 @@ NoConn ~ 9400 8000
 Text Label 6300 8400 0    50   ~ 0
 RTCX1
 $Comp
-L TrackerAVL:LPC4337JBD144 U202
+L edu-ciaa-nxp:LPC4337JBD144 U202
 U 1 1 5BA579FD
 P 7650 6700
 F 0 "U202" H 8650 3800 60  0000 C CNN
@@ -214,7 +212,7 @@ Text HLabel 10000 3300 2    50   Output ~ 0
 DIG_OUT_1
 Text HLabel 10000 3400 2    50   Output ~ 0
 DIG_OUT_2
-Text HLabel 10000 3000 2    50   Output ~ 0
+Text HLabel 6100 4850 0    50   Output ~ 0
 DIG_OUT_0
 Text HLabel 10000 8100 2    50   Input ~ 0
 AN_IN_0
@@ -1226,14 +1224,6 @@ Wire Notes Line
 	9400 10500 9400 9950
 Text Notes 8200 10500 0    79   ~ 16
 Not mounted
-Text Notes 6200 4950 0    50   ~ 0
-LED0_B
-Wire Notes Line
-	6650 4950 6200 4950
-Text Notes 6200 4850 0    50   ~ 0
-LED0_G
-Wire Notes Line
-	6650 4850 6200 4850
 Text Notes 6100 4600 0    50   ~ 0
 ENET_TXD1
 Text Notes 6100 4500 0    50   ~ 0
@@ -1801,26 +1791,16 @@ Wire Wire Line
 Wire Wire Line
 	2200 1500 2200 1600
 Connection ~ 2200 1600
-Text Label 3350 1400 2    50   ~ 0
+Text Label 3450 1400 2    50   ~ 0
 TMS
-Text Label 3350 1500 2    50   ~ 0
+Text Label 3450 1500 2    50   ~ 0
 TCK
-Text Label 3350 1700 2    50   ~ 0
+Text Label 3450 1700 2    50   ~ 0
 TDI
-Text Label 3350 1800 2    50   ~ 0
-RESET
-Text Label 3350 1600 2    50   ~ 0
+Text Label 3450 1800 2    50   ~ 0
+RESET_DBG
+Text Label 3450 1600 2    50   ~ 0
 TDO
-Wire Wire Line
-	3100 1400 3350 1400
-Wire Wire Line
-	3100 1500 3350 1500
-Wire Wire Line
-	3100 1600 3350 1600
-Wire Wire Line
-	3100 1700 3350 1700
-Wire Wire Line
-	3100 1800 3350 1800
 Text HLabel 10000 8200 2    50   Input ~ 0
 AN_IN_1
 Text HLabel 10000 8300 2    50   Input ~ 0
@@ -1867,9 +1847,7 @@ Wire Wire Line
 	2600 7750 2600 7850
 Wire Wire Line
 	2600 8150 2600 8250
-Wire Wire Line
-	2600 8250 2100 8250
-Text Label 2100 8250 0    50   ~ 0
+Text Label 1300 8250 0    50   ~ 0
 nRESET
 $Comp
 L Device:C C206
@@ -2355,10 +2333,8 @@ Text HLabel 6100 5750 0    50   Output ~ 0
 SLEEP_MDM
 Wire Wire Line
 	6100 5750 6700 5750
-Text Notes 4450 5750 0    59   ~ 0
-Control de SLEEP MODE\ndel módulo UC20
-Wire Notes Line
-	5550 5750 4450 5750
+Text Notes 3650 5750 0    59   ~ 0
+Control de SLEEP MODE del módulo UC20
 Text HLabel 6100 5850 0    50   Input ~ 0
 MPU_INT
 Wire Wire Line
@@ -2370,7 +2346,7 @@ SPI_MISO
 Wire Notes Line
 	6650 2900 6200 2900
 NoConn ~ 6700 2900
-Text HLabel 6100 5950 0    50   Output ~ 0
+Text HLabel 10000 3000 2    50   Output ~ 0
 SPI_CS1
 Wire Wire Line
 	6100 5950 6700 5950
@@ -2384,4 +2360,60 @@ Wire Wire Line
 	3500 4700 3500 4650
 Wire Wire Line
 	3300 4700 3500 4700
+Wire Wire Line
+	6100 4850 6700 4850
+Text Label 6200 4850 0    50   ~ 0
+LED0_G
+Text HLabel 6100 5950 0    50   Output ~ 0
+DISPLAY_MODE
+Text Notes 3650 5950 0    59   ~ 0
+Selección de bus I2C o SPI del display
+Wire Notes Line
+	3650 5750 5550 5750
+Wire Notes Line
+	3650 5950 5450 5950
+Text Notes 3650 5850 0    59   ~ 0
+Señal de interrupción del MPU
+Wire Notes Line
+	3650 5850 5450 5850
+Text HLabel 6100 4950 0    50   Output ~ 0
+BUZZER
+Wire Wire Line
+	6100 4950 6700 4950
+Text Label 6200 4950 0    50   ~ 0
+LED0_B
+$Comp
+L TrackerAVL:DIODE D204
+U 1 1 5BE8D671
+P 1850 8000
+F 0 "D204" V 1888 7922 40  0000 R CNN
+F 1 "1N4148" V 1812 7922 40  0000 R CNN
+F 2 "" H 1850 8000 60  0000 C CNN
+F 3 "" H 1850 8000 60  0000 C CNN
+	1    1850 8000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 7800 1850 7750
+Text Label 1300 7750 0    50   ~ 0
+RESET_DBG
+Wire Wire Line
+	1300 8250 1850 8250
+Wire Wire Line
+	1850 8200 1850 8250
+Connection ~ 1850 8250
+Wire Wire Line
+	1850 8250 2600 8250
+Wire Wire Line
+	1300 7750 1850 7750
+Wire Wire Line
+	3100 1800 3450 1800
+Wire Wire Line
+	3100 1400 3450 1400
+Wire Wire Line
+	3100 1500 3450 1500
+Wire Wire Line
+	3100 1600 3450 1600
+Wire Wire Line
+	3100 1700 3450 1700
 $EndSCHEMATC
