@@ -113,17 +113,6 @@ VBAT
 Wire Wire Line
 	8600 2900 8950 2900
 $Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0503
-U 1 1 5BAC0955
-P 7200 3850
-F 0 "#FLG0503" H 7200 3945 30  0001 C CNN
-F 1 "PWR_FLAG" H 7200 4058 30  0000 C CNN
-F 2 "" H 7200 3850 60  0000 C CNN
-F 3 "" H 7200 3850 60  0000 C CNN
-	1    7200 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L edu-ciaa-nxp:PWR_FLAG #FLG0504
 U 1 1 5BAC0985
 P 9250 2250
@@ -145,8 +134,6 @@ F 3 "" H 9250 2850 60  0000 C CNN
 	1    9250 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 2500 7900 2500
 Wire Wire Line
 	9250 2250 9250 2400
 Wire Wire Line
@@ -263,22 +250,7 @@ Wire Wire Line
 	6600 2500 6900 2500
 Wire Wire Line
 	6900 2500 6900 2400
-$Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0502
-U 1 1 5BACDCB6
-P 7150 2350
-F 0 "#FLG0502" H 7150 2445 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 2558 30  0000 C CNN
-F 2 "" H 7150 2350 60  0000 C CNN
-F 3 "" H 7150 2350 60  0000 C CNN
-	1    7150 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 2350 7150 2500
 Connection ~ 6900 2500
-Wire Wire Line
-	7150 2500 6900 2500
 Text HLabel 1800 2550 0    50   Input ~ 0
 IGN
 $Comp
@@ -481,14 +453,9 @@ $EndComp
 Wire Wire Line
 	6300 4550 6300 4500
 Wire Wire Line
-	5600 4050 6000 4050
-Connection ~ 7150 2500
+	5600 4050 5950 4050
 Wire Wire Line
 	6900 3900 6900 4050
-Wire Wire Line
-	7200 4050 6900 4050
-Wire Wire Line
-	7200 3850 7200 4050
 $Comp
 L Device:C C506
 U 1 1 5BCEE528
@@ -556,4 +523,26 @@ F 3 "~" H 5600 4250 50  0001 C CNN
 	1    5600 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6900 2500 7900 2500
+Wire Wire Line
+	6000 4150 5950 4150
+Wire Wire Line
+	5950 4150 5950 4050
+Connection ~ 5950 4050
+Wire Wire Line
+	5950 4050 6000 4050
+$Comp
+L edu-ciaa-nxp:PWR_FLAG #FLG0101
+U 1 1 5BD8A4D0
+P 5700 2400
+F 0 "#FLG0101" H 5700 2495 30  0001 C CNN
+F 1 "PWR_FLAG" H 5700 2608 30  0000 C CNN
+F 2 "" H 5700 2400 60  0000 C CNN
+F 3 "" H 5700 2400 60  0000 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2400 5700 2500
 $EndSCHEMATC
