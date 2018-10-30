@@ -284,7 +284,7 @@ AR Path="/5BD5C4FD/5BDE240C" Ref="D?"  Part="1"
 AR Path="/5BA5703C/5BDE240C" Ref="D801"  Part="1" 
 F 0 "D801" H 7900 3700 50  0000 L CNN
 F 1 "PESD5V0L1UA" H 7650 3500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 7900 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7900 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 7850 3600 50  0001 C CNN
 	1    7900 3600
 	0    1    1    0   
@@ -308,7 +308,7 @@ AR Path="/5BD5C4FD/5BD351A1" Ref="D?"  Part="1"
 AR Path="/5BA5703C/5BD351A1" Ref="D802"  Part="1" 
 F 0 "D802" H 8200 3700 50  0000 L CNN
 F 1 "PESD5V0L1UA" H 7950 3500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8200 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8200 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8150 3600 50  0001 C CNN
 	1    8200 3600
 	0    1    1    0   
@@ -322,7 +322,7 @@ AR Path="/5BD5C4FD/5BD351C7" Ref="D?"  Part="1"
 AR Path="/5BA5703C/5BD351C7" Ref="D803"  Part="1" 
 F 0 "D803" H 8500 3700 50  0000 L CNN
 F 1 "PESD5V0L1UA" H 8250 3500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8500 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8450 3600 50  0001 C CNN
 	1    8500 3600
 	0    1    1    0   
@@ -336,7 +336,7 @@ AR Path="/5BD5C4FD/5BD351EB" Ref="D?"  Part="1"
 AR Path="/5BA5703C/5BD351EB" Ref="D804"  Part="1" 
 F 0 "D804" H 8800 3700 50  0000 L CNN
 F 1 "PESD5V0L1UA" H 8550 3500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8800 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8800 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8750 3600 50  0001 C CNN
 	1    8800 3600
 	0    1    1    0   
@@ -350,7 +350,7 @@ AR Path="/5BD5C4FD/5BD35211" Ref="D?"  Part="1"
 AR Path="/5BA5703C/5BD35211" Ref="D805"  Part="1" 
 F 0 "D805" H 9100 3700 50  0000 L CNN
 F 1 "PESD5V0L1UA" H 8850 3500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 9100 3400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9100 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 9050 3600 50  0001 C CNN
 	1    9100 3600
 	0    1    1    0   
@@ -440,7 +440,7 @@ U 1 1 5BDADD1C
 P 2400 5800
 F 0 "U801" H 2500 6300 50  0000 C CNN
 F 1 "74HC4053" H 2100 6300 50  0000 C CNN
-F 2 "" H 2400 5400 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2400 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf" H 2400 5400 50  0001 C CNN
 	1    2400 5800
 	1    0    0    -1  

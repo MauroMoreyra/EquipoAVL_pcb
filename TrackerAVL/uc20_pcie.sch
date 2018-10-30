@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 8
-Title ""
-Date ""
-Rev ""
+Title "Equipo AVL - vRaptor"
+Date "2018-10-30"
+Rev "1.0"
 Comp ""
-Comment1 ""
+Comment1 "Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -170,7 +170,7 @@ U 1 1 5BAB0EDA
 P 9500 1400
 F 0 "R601" H 9570 1446 50  0000 L CNN
 F 1 "10K" H 9570 1355 50  0000 L CNN
-F 2 "" V 9430 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 1400 50  0001 C CNN
 F 3 "~" H 9500 1400 50  0001 C CNN
 	1    9500 1400
 	1    0    0    -1  
@@ -198,7 +198,7 @@ U 1 1 5BAC7583
 P 9550 2500
 F 0 "R602" H 9620 2546 50  0000 L CNN
 F 1 "10K" H 9620 2455 50  0000 L CNN
-F 2 "" V 9480 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9480 2500 50  0001 C CNN
 F 3 "~" H 9550 2500 50  0001 C CNN
 	1    9550 2500
 	1    0    0    -1  
@@ -209,7 +209,7 @@ U 1 1 5BAC758A
 P 9900 2500
 F 0 "R603" H 9970 2546 50  0000 L CNN
 F 1 "10K" H 9970 2455 50  0000 L CNN
-F 2 "" V 9830 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9830 2500 50  0001 C CNN
 F 3 "~" H 9900 2500 50  0001 C CNN
 	1    9900 2500
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 5BA7E0EE
 P 5900 3250
 F 0 "U601" H 5850 4700 60  0000 C CNN
 F 1 "MPCIE-Socket" H 5850 4600 60  0000 C CNN
-F 2 "mpcie:mpcie-socket" H 5900 4581 60  0001 C CNN
+F 2 "mpcie:mpcie-socket-latch" H 5900 4581 60  0001 C CNN
 F 3 "" H 6000 2250 60  0000 C CNN
 	1    5900 3250
 	1    0    0    -1  

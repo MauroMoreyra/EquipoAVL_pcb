@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
-Title ""
-Date ""
-Rev ""
+Title "Equipo AVL - vRaptor"
+Date "2018-10-30"
+Rev "1.0"
 Comp ""
-Comment1 ""
+Comment1 "Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -28,7 +28,7 @@ AR Path="/5BA56FC1/5BD61F9A" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BD61F9A" Ref="R701"  Part="1" 
 F 0 "R701" V 2600 1950 50  0000 L CNN
 F 1 "10K" V 2500 1950 50  0000 L CNN
-F 2 "" V 2430 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 2050 50  0001 C CNN
 F 3 "~" H 2500 2050 50  0001 C CNN
 	1    2500 2050
 	1    0    0    -1  
@@ -60,7 +60,7 @@ AR Path="/5BA56FC1/5BD61FAB" Ref="Q?"  Part="1"
 AR Path="/5BD5C4FD/5BD61FAB" Ref="Q701"  Part="1" 
 F 0 "Q701" H 3005 1846 50  0000 L CNN
 F 1 "2N7002P" H 3005 1755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 1725 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3000 1725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2800 1800 50  0001 L CNN
 	1    2800 1800
 	1    0    0    -1  
@@ -110,7 +110,7 @@ AR Path="/5BA56FC1/5BD61FC7" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BD61FC7" Ref="R702"  Part="1" 
 F 0 "R702" V 2600 2950 50  0000 L CNN
 F 1 "10K" V 2500 2950 50  0000 L CNN
-F 2 "" V 2430 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 3050 50  0001 C CNN
 F 3 "~" H 2500 3050 50  0001 C CNN
 	1    2500 3050
 	1    0    0    -1  
@@ -142,7 +142,7 @@ AR Path="/5BA56FC1/5BD61FD8" Ref="Q?"  Part="1"
 AR Path="/5BD5C4FD/5BD61FD8" Ref="Q702"  Part="1" 
 F 0 "Q702" H 3005 2846 50  0000 L CNN
 F 1 "2N7002P" H 3005 2755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3000 2725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2800 2800 50  0001 L CNN
 	1    2800 2800
 	1    0    0    -1  
@@ -192,7 +192,7 @@ AR Path="/5BA56FC1/5BD61FF4" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BD61FF4" Ref="R703"  Part="1" 
 F 0 "R703" V 2600 3950 50  0000 L CNN
 F 1 "10K" V 2500 3950 50  0000 L CNN
-F 2 "" V 2430 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4050 50  0001 C CNN
 F 3 "~" H 2500 4050 50  0001 C CNN
 	1    2500 4050
 	1    0    0    -1  
@@ -224,7 +224,7 @@ AR Path="/5BA56FC1/5BD62005" Ref="Q?"  Part="1"
 AR Path="/5BD5C4FD/5BD62005" Ref="Q703"  Part="1" 
 F 0 "Q703" H 3005 3846 50  0000 L CNN
 F 1 "2N7002P" H 3005 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 3725 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3000 3725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 2800 3800 50  0001 L CNN
 	1    2800 3800
 	1    0    0    -1  
@@ -288,7 +288,7 @@ AR Path="/5BA56FC1/5BF6B3FD" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B3FD" Ref="D704"  Part="1" 
 F 0 "D704" V 5654 2129 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 5745 2129 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5700 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5700 1850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5650 2050 50  0001 C CNN
 	1    5700 2050
 	0    1    1    0   
@@ -303,7 +303,7 @@ AR Path="/5BA56FC1/5BF6B406" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B406" Ref="C701"  Part="1" 
 F 0 "C701" H 6515 2096 50  0000 L CNN
 F 1 "100nF" H 6515 2005 50  0000 L CNN
-F 2 "" H 6438 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 1900 50  0001 C CNN
 F 3 "~" H 6400 2050 50  0001 C CNN
 	1    6400 2050
 	1    0    0    -1  
@@ -346,7 +346,7 @@ AR Path="/5BA56FC1/5BF6B41E" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B41E" Ref="D705"  Part="1" 
 F 0 "D705" V 5654 3129 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 5745 3129 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5700 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5700 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5650 3050 50  0001 C CNN
 	1    5700 3050
 	0    1    1    0   
@@ -361,7 +361,7 @@ AR Path="/5BA56FC1/5BF6B427" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B427" Ref="C702"  Part="1" 
 F 0 "C702" H 6515 3096 50  0000 L CNN
 F 1 "100nF" H 6515 3005 50  0000 L CNN
-F 2 "" H 6438 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 2900 50  0001 C CNN
 F 3 "~" H 6400 3050 50  0001 C CNN
 	1    6400 3050
 	1    0    0    -1  
@@ -403,7 +403,7 @@ AR Path="/5BA56FC1/5BF6B43F" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B43F" Ref="D706"  Part="1" 
 F 0 "D706" V 5654 4129 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 5745 4129 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5700 3850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5700 3850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5650 4050 50  0001 C CNN
 	1    5700 4050
 	0    1    1    0   
@@ -418,7 +418,7 @@ AR Path="/5BA56FC1/5BF6B448" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B448" Ref="C703"  Part="1" 
 F 0 "C703" H 6515 4096 50  0000 L CNN
 F 1 "100nF" H 6515 4005 50  0000 L CNN
-F 2 "" H 6438 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6438 3900 50  0001 C CNN
 F 3 "~" H 6400 4050 50  0001 C CNN
 	1    6400 4050
 	1    0    0    -1  
@@ -469,7 +469,7 @@ AR Path="/5BA56FC1/5BF6B466" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B466" Ref="D708"  Part="1" 
 F 0 "D708" V 8850 1800 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 8950 1450 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8900 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8900 1850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8850 2050 50  0001 C CNN
 	1    8900 2050
 	0    1    1    0   
@@ -486,7 +486,7 @@ AR Path="/5BA56FC1/5BF6B46F" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B46F" Ref="C704"  Part="1" 
 F 0 "C704" H 9315 2096 50  0000 L CNN
 F 1 "100nF" H 9315 2005 50  0000 L CNN
-F 2 "" H 9238 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 1900 50  0001 C CNN
 F 3 "~" H 9200 2050 50  0001 C CNN
 	1    9200 2050
 	1    0    0    -1  
@@ -512,7 +512,7 @@ AR Path="/5BA56FC1/5BF6B47D" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B47D" Ref="R706"  Part="1" 
 F 0 "R706" V 8700 1700 50  0000 L CNN
 F 1 "1K2" V 8600 1700 50  0000 L CNN
-F 2 "" V 8530 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 1800 50  0001 C CNN
 F 3 "~" H 8600 1800 50  0001 C CNN
 	1    8600 1800
 	0    1    1    0   
@@ -546,7 +546,7 @@ AR Path="/5BA56FC1/5BF6B490" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B490" Ref="D709"  Part="1" 
 F 0 "D709" V 8850 2800 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 8950 2450 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8900 2850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8900 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8850 3050 50  0001 C CNN
 	1    8900 3050
 	0    1    1    0   
@@ -563,7 +563,7 @@ AR Path="/5BA56FC1/5BF6B499" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B499" Ref="C705"  Part="1" 
 F 0 "C705" H 9315 3096 50  0000 L CNN
 F 1 "100nF" H 9315 3005 50  0000 L CNN
-F 2 "" H 9238 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 2900 50  0001 C CNN
 F 3 "~" H 9200 3050 50  0001 C CNN
 	1    9200 3050
 	1    0    0    -1  
@@ -589,7 +589,7 @@ AR Path="/5BA56FC1/5BF6B4A7" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B4A7" Ref="R707"  Part="1" 
 F 0 "R707" V 8700 2700 50  0000 L CNN
 F 1 "1K2" V 8600 2700 50  0000 L CNN
-F 2 "" V 8530 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 2800 50  0001 C CNN
 F 3 "~" H 8600 2800 50  0001 C CNN
 	1    8600 2800
 	0    1    1    0   
@@ -623,7 +623,7 @@ AR Path="/5BA56FC1/5BF6B4BA" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B4BA" Ref="D710"  Part="1" 
 F 0 "D710" V 8850 3800 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 8950 3450 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 8900 3850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8900 3850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 8850 4050 50  0001 C CNN
 	1    8900 4050
 	0    1    1    0   
@@ -640,7 +640,7 @@ AR Path="/5BA56FC1/5BF6B4C3" Ref="C?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B4C3" Ref="C706"  Part="1" 
 F 0 "C706" H 9315 4096 50  0000 L CNN
 F 1 "100nF" H 9315 4005 50  0000 L CNN
-F 2 "" H 9238 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 3900 50  0001 C CNN
 F 3 "~" H 9200 4050 50  0001 C CNN
 	1    9200 4050
 	1    0    0    -1  
@@ -666,7 +666,7 @@ AR Path="/5BA56FC1/5BF6B4D1" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5BF6B4D1" Ref="R708"  Part="1" 
 F 0 "R708" V 8700 3700 50  0000 L CNN
 F 1 "1K2" V 8600 3700 50  0000 L CNN
-F 2 "" V 8530 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8530 3800 50  0001 C CNN
 F 3 "~" H 8600 3800 50  0001 C CNN
 	1    8600 3800
 	0    1    1    0   
@@ -720,7 +720,7 @@ AR Path="/5BA56FC1/5C132A3C" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5C132A3C" Ref="R704"  Part="1" 
 F 0 "R704" V 6100 5350 50  0000 L CNN
 F 1 "10K 1%" V 5900 5350 50  0000 L CNN
-F 2 "" V 5930 5450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 5450 50  0001 C CNN
 F 3 "~" H 6000 5450 50  0001 C CNN
 	1    6000 5450
 	1    0    0    -1  
@@ -733,7 +733,7 @@ AR Path="/5BA56FC1/5C132A43" Ref="R?"  Part="1"
 AR Path="/5BD5C4FD/5C132A43" Ref="R705"  Part="1" 
 F 0 "R705" V 6100 5750 50  0000 L CNN
 F 1 "1210 1%" V 5900 5700 50  0000 L CNN
-F 2 "" V 5930 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 5850 50  0001 C CNN
 F 3 "~" H 6000 5850 50  0001 C CNN
 	1    6000 5850
 	1    0    0    -1  
@@ -770,7 +770,7 @@ AR Path="/5BA56FC1/5C132A57" Ref="D?"  Part="1"
 AR Path="/5BD5C4FD/5C132A57" Ref="D707"  Part="1" 
 F 0 "D707" V 6404 5929 50  0000 L CNN
 F 1 "PESD5V0L1UA" V 6495 5929 50  0000 L CNN
-F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 6450 5650 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6450 5650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6400 5850 50  0001 C CNN
 	1    6450 5850
 	0    1    1    0   
@@ -836,8 +836,8 @@ L 74xx:74HC244 U701
 U 1 1 5BD4602C
 P 3000 6300
 F 0 "U701" H 3100 7050 50  0000 C CNN
-F 1 "74HC244" H 3200 6950 50  0000 C CNN
-F 2 "" H 3000 6300 50  0001 C CNN
+F 1 "74LVC244APW" H 3300 6950 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3000 6300 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf" H 3000 6300 50  0001 C CNN
 	1    3000 6300
 	1    0    0    -1  

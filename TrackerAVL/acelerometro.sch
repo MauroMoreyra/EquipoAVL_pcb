@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
-Title ""
-Date ""
-Rev ""
+Title "Equipo AVL - vRaptor"
+Date "2018-10-30"
+Rev "1.0"
 Comp ""
-Comment1 ""
+Comment1 "Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -33,7 +33,7 @@ AR Path="/5BA56FC1/5DB41F13" Ref="C?"  Part="1"
 AR Path="/5BA57001/5DB41F13" Ref="C301"  Part="1" 
 F 0 "C301" H 5200 2200 39  0000 L CNN
 F 1 "100nF" H 5200 2000 39  0000 L CNN
-F 2 "" H 5238 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5238 1950 50  0001 C CNN
 F 3 "~" H 5200 2100 50  0001 C CNN
 	1    5200 2100
 	1    0    0    -1  
@@ -118,7 +118,7 @@ AR Path="/5BA56FC1/5DB44A9E" Ref="C?"  Part="1"
 AR Path="/5BA57001/5DB44A9E" Ref="C302"  Part="1" 
 F 0 "C302" H 6200 2200 39  0000 L CNN
 F 1 "100nF" H 6200 2000 39  0000 L CNN
-F 2 "" H 6238 1950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6238 1950 50  0001 C CNN
 F 3 "~" H 6200 2100 50  0001 C CNN
 	1    6200 2100
 	1    0    0    -1  
@@ -164,7 +164,7 @@ AR Path="/5BA56FC1/5DB47214" Ref="C?"  Part="1"
 AR Path="/5BA57001/5DB47214" Ref="C303"  Part="1" 
 F 0 "C303" H 6500 3850 39  0000 L CNN
 F 1 "100nF" H 6500 3650 39  0000 L CNN
-F 2 "" H 6538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6538 3600 50  0001 C CNN
 F 3 "~" H 6500 3750 50  0001 C CNN
 	1    6500 3750
 	1    0    0    -1  
@@ -177,7 +177,7 @@ AR Path="/5BA56FC1/5DB47258" Ref="C?"  Part="1"
 AR Path="/5BA57001/5DB47258" Ref="C304"  Part="1" 
 F 0 "C304" H 6800 3850 39  0000 L CNN
 F 1 "2.2nF" H 6800 3650 39  0000 L CNN
-F 2 "" H 6838 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6838 3600 50  0001 C CNN
 F 3 "~" H 6800 3750 50  0001 C CNN
 	1    6800 3750
 	1    0    0    -1  
