@@ -36,9 +36,6 @@ NoConn ~ 6700 3700
 NoConn ~ 6700 3800
 NoConn ~ 6700 3900
 NoConn ~ 6700 4000
-NoConn ~ 6700 5250
-NoConn ~ 6700 5350
-NoConn ~ 6700 5450
 NoConn ~ 6700 5550
 NoConn ~ 6700 5650
 NoConn ~ 6700 6050
@@ -224,35 +221,15 @@ Text HLabel 10000 3600 2    50   Input ~ 0
 DIG_IN_0
 Text HLabel 10000 4100 2    50   BiDi ~ 0
 IBUTTON
-Text Label 9900 4100 2    50   ~ 0
-GPIO8
 Text Notes 12100 4100 2    59   ~ 0
 Configurar GPIO con pullup interno
-Text Label 9900 3800 2    50   ~ 0
-GPIO5
-Text Label 9900 3700 2    50   ~ 0
-GPIO4
-Text Label 9900 3600 2    50   ~ 0
-GPIO3
 NoConn ~ 9400 3500
-Text Label 9900 3400 2    50   ~ 0
-GPIO2
-Text Label 9900 3300 2    50   ~ 0
-GPIO1
-Text Label 9900 3000 2    50   ~ 0
-GPIO0
 Text Notes 12100 3600 2    59   ~ 0
 Configurar GPIO con pullup interno
 Text Notes 12100 3700 2    59   ~ 0
 Configurar GPIO con pullup interno
 Text Notes 12100 3800 2    59   ~ 0
 Configurar GPIO con pullup interno
-Text Label 9900 8200 2    50   ~ 0
-ADC0_2
-Text Label 9900 8100 2    50   ~ 0
-ADC0_1
-Text Label 9900 8300 2    50   ~ 0
-ADC0_3
 Wire Wire Line
 	9400 4100 10000 4100
 Text Label 6200 5750 0    50   ~ 0
@@ -834,16 +811,8 @@ Text HLabel 10000 3900 2    50   Input ~ 0
 IGN
 Text HLabel 10000 8400 2    50   Input ~ 0
 VBAT
-Text Label 9900 8400 2    50   ~ 0
-ADC0_4
-Text Label 9900 3900 2    50   ~ 0
-GPIO6
 Text Notes 12100 3900 2    59   ~ 0
 Configurar GPIO con pullup interno
-Text Label 6200 5050 0    50   ~ 0
-RS232_TXD
-Text Label 6200 5150 0    50   ~ 0
-RS232_RXD
 Text Notes 6200 6300 0    50   ~ 0
 CAN_RD
 Wire Notes Line
@@ -2236,8 +2205,6 @@ Wire Wire Line
 Connection ~ 14500 5200
 Wire Wire Line
 	9400 4000 9900 4000
-Text Label 9900 4000 2    50   ~ 0
-GPIO7
 Text Label 12500 5100 0    50   ~ 0
 GPIO7
 $Comp
@@ -2312,16 +2279,8 @@ Wire Notes Line
 	11750 5650 14200 5650
 Wire Notes Line
 	11750 6350 14200 6350
-Text HLabel 6100 5750 0    50   Output ~ 0
-SLEEP_MDM
-Wire Wire Line
-	6100 5750 6700 5750
-Text Notes 3650 5750 0    59   ~ 0
+Text Notes 3650 5250 0    59   ~ 0
 Control de SLEEP MODE del módulo UC20
-Text HLabel 6100 5850 0    50   Input ~ 0
-MPU_INT
-Wire Wire Line
-	6100 5850 6700 5850
 Wire Wire Line
 	6100 3000 6700 3000
 Text Notes 6200 2900 0    50   ~ 0
@@ -2331,10 +2290,6 @@ Wire Notes Line
 NoConn ~ 6700 2900
 Text HLabel 10000 3000 2    50   Output ~ 0
 SPI_CS1
-Wire Wire Line
-	6100 5950 6700 5950
-Text Label 6200 4750 0    50   ~ 0
-LED0_R
 Text HLabel 6100 4750 0    50   Output ~ 0
 BUFFER_OE
 Wire Wire Line
@@ -2345,26 +2300,20 @@ Wire Wire Line
 	3300 4700 3500 4700
 Wire Wire Line
 	6100 4850 6700 4850
-Text Label 6200 4850 0    50   ~ 0
-LED0_G
-Text HLabel 6100 5950 0    50   Output ~ 0
-DISPLAY_MODE
-Text Notes 3650 5950 0    59   ~ 0
+Text Notes 3650 5450 0    59   ~ 0
 Selección de bus I2C o SPI del display
 Wire Notes Line
-	3650 5750 5550 5750
+	3650 5250 5550 5250
 Wire Notes Line
-	3650 5950 5450 5950
-Text Notes 3650 5850 0    59   ~ 0
+	3650 5450 5450 5450
+Text Notes 3650 5350 0    59   ~ 0
 Señal de interrupción del MPU
 Wire Notes Line
-	3650 5850 5450 5850
+	3650 5350 5450 5350
 Text HLabel 6100 4950 0    50   Output ~ 0
 BUZZER
 Wire Wire Line
 	6100 4950 6700 4950
-Text Label 6200 4950 0    50   ~ 0
-LED0_B
 $Comp
 L TrackerAVL:DIODE D204
 U 1 1 5BE8D671
@@ -2423,4 +2372,58 @@ F 3 "~" H 3800 6450 50  0001 C CNN
 	1    3800 6450
 	0    1    1    0   
 $EndComp
+Text Notes 6200 5050 0    50   ~ 0
+RS232_TXD
+Text Notes 6200 5150 0    50   ~ 0
+RS232_RXD
+Text HLabel 6100 5250 0    50   Output ~ 0
+SLEEP_MDM
+Wire Wire Line
+	6100 5250 6700 5250
+Text HLabel 6100 5350 0    50   Input ~ 0
+MPU_INT
+Wire Wire Line
+	6100 5350 6700 5350
+Wire Wire Line
+	6100 5450 6700 5450
+Text HLabel 6100 5450 0    50   Output ~ 0
+DISPLAY_MODE
+Wire Wire Line
+	6700 5750 6200 5750
+Wire Wire Line
+	6700 5850 6200 5850
+Wire Wire Line
+	6200 5950 6700 5950
+Text Notes 6200 4750 0    50   ~ 0
+LED0_R
+Text Notes 6200 4850 0    50   ~ 0
+LED0_G
+Text Notes 6200 4950 0    50   ~ 0
+LED0_B
+Text Notes 9900 8100 2    50   ~ 0
+ADC0_1
+Text Notes 9900 8200 2    50   ~ 0
+ADC0_2
+Text Notes 9900 8300 2    50   ~ 0
+ADC0_3
+Text Notes 9900 8400 2    50   ~ 0
+ADC0_4
+Text Notes 9900 3000 2    50   ~ 0
+GPIO0
+Text Notes 9900 3300 2    50   ~ 0
+GPIO1
+Text Notes 9900 3400 2    50   ~ 0
+GPIO2
+Text Notes 9900 3600 2    50   ~ 0
+GPIO3
+Text Notes 9900 3700 2    50   ~ 0
+GPIO4
+Text Notes 9900 3800 2    50   ~ 0
+GPIO5
+Text Notes 9900 3900 2    50   ~ 0
+GPIO6
+Text Notes 9900 4100 2    50   ~ 0
+GPIO8
+Text Label 9900 4000 2    50   ~ 0
+GPIO7
 $EndSCHEMATC

@@ -162,8 +162,6 @@ Wire Wire Line
 	6550 3600 7450 3600
 Text HLabel 7450 3600 2    50   Input ~ 0
 PERST
-Text Label 6700 3600 0    50   ~ 0
-PERST
 $Comp
 L Device:R R601
 U 1 1 5BAB0EDA
