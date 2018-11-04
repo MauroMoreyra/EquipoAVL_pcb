@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mauro/ciaa-ide/KiCad/EquipoAVL_pcb/TrackerAVL/TrackerAVL.sch)
-    (date "sáb 03 nov 2018 17:50:38 -03")
+    (date "dom 04 nov 2018 17:56:44 -03")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
