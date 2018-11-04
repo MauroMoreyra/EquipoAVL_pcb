@@ -890,7 +890,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6000 2500 6000
 Text Label 4000 5800 2    50   ~ 0
-in_DIG_IN_0
+in_DIG_IN_0_a
 Wire Wire Line
 	3500 5800 4000 5800
 Wire Wire Line
@@ -898,15 +898,15 @@ Wire Wire Line
 Wire Wire Line
 	3500 6000 4000 6000
 Text Label 4000 5900 2    50   ~ 0
-in_DIG_IN_1
+in_DIG_IN_1_b
 Text Label 4000 6000 2    50   ~ 0
-in_DIG_IN_2
+in_DIG_IN_2_c
 Text Label 5150 1800 0    50   ~ 0
-in_DIG_IN_0
+in_DIG_IN_0_a
 Wire Wire Line
 	5150 1800 5700 1800
 Text Label 5150 2800 0    50   ~ 0
-in_DIG_IN_1
+in_DIG_IN_1_b
 Wire Notes Line
 	5050 2250 5650 2250
 Wire Wire Line
@@ -915,7 +915,7 @@ Connection ~ 5700 2800
 Wire Wire Line
 	5150 3800 5700 3800
 Text Label 5150 3800 0    50   ~ 0
-in_DIG_IN_2
+in_DIG_IN_2_c
 Text Notes 5450 4100 0    59   ~ 12
 NM
 Text Notes 5450 3100 0    59   ~ 12

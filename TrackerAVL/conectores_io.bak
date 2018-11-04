@@ -541,4 +541,6 @@ Text Notes 3400 5700 0    50   ~ 0
 NC      / SPI_CS1
 Text Notes 3400 5400 0    50   ~ 0
 DM = 0 / DM = 1
+Text Notes 3400 5300 0    50   ~ 0
+DISPLAY_MODE (DM)
 $EndSCHEMATC
