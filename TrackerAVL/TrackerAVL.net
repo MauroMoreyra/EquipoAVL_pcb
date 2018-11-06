@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mauro/ciaa-ide/KiCad/EquipoAVL_pcb/TrackerAVL/TrackerAVL.sch)
-    (date "dom 04 nov 2018 17:56:44 -03")
+    (date "lun 05 nov 2018 18:09:21 -03")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1294,7 +1294,7 @@
       (tstamp 5BD35211))
     (comp (ref U801)
       (value 74HC4053)
-      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm)
+      (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
       (datasheet http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf)
       (libsource (lib 74xx) (part 74HC4053) (description "Triple 2-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"))
       (sheetpath (names /Conectores_IO/) (tstamps /5BA5703C/))
