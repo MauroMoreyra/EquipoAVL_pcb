@@ -526,36 +526,10 @@ Wire Wire Line
 	6400 5900 5500 5900
 Wire Wire Line
 	6400 6000 5500 6000
-$Comp
-L Connector:TestPoint TP101
-U 1 1 5BDCE2DE
-P 3800 7000
-F 0 "TP101" H 3858 7074 50  0000 L CNN
-F 1 "TestPoint" H 3858 7029 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4000 7000 50  0001 C CNN
-F 3 "~" H 4000 7000 50  0001 C CNN
-	1    3800 7000
-	1    0    0    -1  
-$EndComp
 Text Notes 1100 6750 0    59   ~ 12
 Agujeros de montaje
 Text Notes 2250 6750 0    59   ~ 12
 Fiduciales (3 por capa)
-$Comp
-L power:GND #PWR0101
-U 1 1 5BDFB84C
-P 3800 7200
-F 0 "#PWR0101" H 3800 6950 50  0001 C CNN
-F 1 "GND" H 3805 7027 50  0000 C CNN
-F 2 "" H 3800 7200 50  0001 C CNN
-F 3 "" H 3800 7200 50  0001 C CNN
-	1    3800 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 7000 3800 7200
-Text Notes 3750 6750 0    59   ~ 12
-TestPoints
 Wire Wire Line
 	2600 5500 3500 5500
 Wire Wire Line
