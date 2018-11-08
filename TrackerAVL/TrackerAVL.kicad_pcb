@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.75)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.24)
     (user_trace_width 0.25)
@@ -7810,7 +7810,7 @@
   )
 
   (dimension 120 (width 0.3) (layer Dwgs.User)
-    (gr_text "120,000 mm" (at 171.5 149.1) (layer Dwgs.User) (tstamp 5BE46933)
+    (gr_text "120,000 mm" (at 171.5 149.1) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 231.5 127) (xy 231.5 147.586421)))
@@ -7821,7 +7821,7 @@
     (arrow2a (pts (xy 111.5 147) (xy 112.626504 147.586421)))
     (arrow2b (pts (xy 111.5 147) (xy 112.626504 146.413579)))
   )
-  (gr_text "Equipo AVL \nvRaptor v1.0\nSTA" (at 123.5 52.5) (layer F.SilkS)
+  (gr_text "vRaptor v1.0\nSTA" (at 123.5 51) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "Industria Argentina" (at 199.25 49) (layer B.Cu)
@@ -7840,7 +7840,7 @@
   (gr_line (start 189.2 81.7) (end 196 81.7) (layer F.SilkS) (width 0.15))
   (gr_line (start 189.2 81.1) (end 189.2 81.7) (layer F.SilkS) (width 0.15))
   (dimension 80 (width 0.3) (layer Dwgs.User)
-    (gr_text "80,000 mm" (at 253.6 87 270) (layer Dwgs.User) (tstamp 5BE40DA0)
+    (gr_text "80,000 mm" (at 253.6 87 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 231.5 127) (xy 252.086421 127)))
