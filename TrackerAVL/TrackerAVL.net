@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mauro/ciaa-ide/KiCad/EquipoAVL_pcb/TrackerAVL/TrackerAVL.sch)
-    (date "mié 07 nov 2018 00:37:18 -03")
+    (date "jue 08 nov 2018 01:46:01 -03")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -656,7 +656,7 @@
       (tstamp 5DB47258))
     (comp (ref U401)
       (value NAU8814)
-      (footprint nau8814:NAU8814_QFN-24_4x4mm_Pitch0.5mm_EPAD)
+      (footprint nau8814:NAU8814_QFN-24_4x4mm_Pitch0.5mm_EPAD_HandSoldering)
       (libsource (lib nau8814) (part NAU8814) (description ""))
       (sheetpath (names /Audio/) (tstamps /5BA57067/))
       (tstamp 5BA9B2C5))
@@ -886,7 +886,7 @@
       (tstamp 5BFDDC6A))
     (comp (ref JP401)
       (value Jumper)
-      (footprint NetTie:NetTie-2_SMD_Pad2.0mm)
+      (footprint Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm)
       (datasheet ~)
       (libsource (lib Device) (part Jumper) (description "Jumper, normally closed"))
       (sheetpath (names /Audio/) (tstamps /5BA57067/))
