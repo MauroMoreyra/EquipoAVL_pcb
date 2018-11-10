@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
     (thickness 1.6)
@@ -78,7 +78,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -8952,7 +8952,7 @@
   (segment (start 148.05 48.275) (end 146.85 48.275) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2E5))
   (segment (start 148.525 48.75) (end 148.05 48.275) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2E2))
   (segment (start 131.15 45.25) (end 133.4 45.25) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2DF))
-  (segment (start 133.4 48.275) (end 135.65 48.275) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2DC))
+  (segment (start 133.4 48.275) (end 135.65 48.275) (width 0.25) (layer F.Cu) (net 24) (tstamp 5BE3F2DC))
   (segment (start 146.85 48.275) (end 146.85 45.25) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2D9))
   (segment (start 133.4 48.275) (end 133.4 45.25) (width 0.5) (layer F.Cu) (net 24) (tstamp 5BE3F2D6))
   (via (at 144.625 47) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 24) (tstamp 5BE3F2D3))
