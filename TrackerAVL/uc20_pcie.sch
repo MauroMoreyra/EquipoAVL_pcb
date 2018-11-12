@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9900 2800
 $Comp
-L mpcie:MPCIE-Socket U601
+L TrackerAVL-rescue:MPCIE-Socket-mpcie U601
 U 1 1 5BA7E0EE
 P 5900 3250
 F 0 "U601" H 5850 4700 60  0000 C CNN
