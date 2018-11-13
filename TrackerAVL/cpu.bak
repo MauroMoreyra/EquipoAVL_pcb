@@ -133,7 +133,7 @@ NoConn ~ 9400 8000
 Text Label 6300 8400 0    50   ~ 0
 RTCX1
 $Comp
-L edu-ciaa-nxp:LPC4337JBD144 U202
+L TrackerAVL-rescue:LPC4337JBD144-edu-ciaa-nxp U202
 U 1 1 5BA579FD
 P 7650 6700
 F 0 "U202" H 8650 3800 60  0000 C CNN
@@ -928,7 +928,7 @@ Wire Wire Line
 Text Notes 2100 5900 0    79   ~ 16
 Circuitos osciladores
 $Comp
-L TrackerAVL:SMD_Sealing_Glass_Crystal X201
+L TrackerAVL-rescue:SMD_Sealing_Glass_Crystal-TrackerAVL X201
 U 1 1 5C804AF8
 P 2000 6450
 F 0 "X201" V 1954 6350 50  0000 R CNN
@@ -1039,7 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 6450 1500 6450
 $Comp
-L TrackerAVL:FILTER FB201
+L TrackerAVL-rescue:FILTER-TrackerAVL FB201
 U 1 1 5C915198
 P 6150 8950
 F 0 "FB201" H 6150 8750 50  0000 C CNN
@@ -1134,7 +1134,7 @@ Wire Notes Line
 Text Notes 6550 9700 2    79   ~ 16
 Not mounted
 $Comp
-L TrackerAVL:FILTER FB202
+L TrackerAVL-rescue:FILTER-TrackerAVL FB202
 U 1 1 5CA81561
 P 8850 10050
 F 0 "FB202" H 8850 9850 50  0000 C CNN
@@ -1690,7 +1690,7 @@ TDI
 Wire Wire Line
 	9400 6250 9900 6250
 $Comp
-L TrackerAVL:CONN_5X2 P201
+L TrackerAVL-rescue:CONN_5X2-TrackerAVL P201
 U 1 1 5C85D5A7
 P 2700 1600
 F 0 "P201" H 2700 2043 60  0000 C CNN
@@ -2124,7 +2124,7 @@ Wire Wire Line
 Wire Notes Line
 	12100 4100 10450 4100
 $Comp
-L EquipoAVL:IRF7105 U?
+L TrackerAVL-rescue:IRF7105-EquipoAVL U?
 U 1 1 5C1F8653
 P 13800 5100
 AR Path="/5BA56FF8/5C1F8653" Ref="U?"  Part="1" 
@@ -2315,7 +2315,7 @@ BUZZER
 Wire Wire Line
 	6100 4950 6700 4950
 $Comp
-L TrackerAVL:DIODE D204
+L TrackerAVL-rescue:DIODE-TrackerAVL D204
 U 1 1 5BE8D671
 P 1850 8000
 F 0 "D204" V 1888 7922 40  0000 R CNN
