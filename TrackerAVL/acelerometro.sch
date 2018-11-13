@@ -20,7 +20,7 @@ U 1 1 5DB41454
 P 5700 3200
 F 0 "U301" H 5800 2650 50  0000 C CNN
 F 1 "MPU-6050" H 5400 2650 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm_HandSoldering" H 5700 2400 50  0001 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 5700 2400 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5700 3050 50  0001 C CNN
 	1    5700 3200
 	1    0    0    -1  
