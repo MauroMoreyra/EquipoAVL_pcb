@@ -93,7 +93,7 @@ U 1 1 5BAF3FC6
 P 1200 6900
 F 0 "H101" H 1300 6946 50  0000 L CNN
 F 1 "MountingHole" H 1300 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 6900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 6900 50  0001 C CNN
 F 3 "~" H 1200 6900 50  0001 C CNN
 	1    1200 6900
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 5BAF4006
 P 1200 7300
 F 0 "H103" H 1300 7346 50  0000 L CNN
 F 1 "MountingHole" H 1300 7255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7300 50  0001 C CNN
 F 3 "~" H 1200 7300 50  0001 C CNN
 	1    1200 7300
 	1    0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 5BAF4050
 P 1200 7100
 F 0 "H102" H 1300 7146 50  0000 L CNN
 F 1 "MountingHole" H 1300 7055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7100 50  0001 C CNN
 F 3 "~" H 1200 7100 50  0001 C CNN
 	1    1200 7100
 	1    0    0    -1  
@@ -126,7 +126,7 @@ U 1 1 5BAF40B1
 P 1200 7500
 F 0 "H104" H 1300 7546 50  0000 L CNN
 F 1 "MountingHole" H 1300 7455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7500 50  0001 C CNN
 F 3 "~" H 1200 7500 50  0001 C CNN
 	1    1200 7500
 	1    0    0    -1  
