@@ -13,7 +13,7 @@
 ## Historial de versiones
 
 **Versión 1.1**
-- [Referencias de diseño](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm).
+- [Referencias de diseño](https://github.com/MauroMoreyra/EquipoAVL_pcb/blob/release/vRaptor-v1.1/Referencias%20de%20dise%C3%B1o%20v1.1.md).
 - Se corrige el acceso de las pistas a los pads de los componentes, ahora lo hacen a 90° (no en diagonal). También, en caso de que a un pad entre y salga una pista, ahora ambas lo hacen con el mismo grosor (regla de diseño: ancho pista menor ancho pad, ya que facilita así el soldado de los componentes al no haber tanta transferencia térmica sobre las pistas).
 - Se redimensiona el ancho de pistas, muchas se angostaron.
 - Se modifican huellas de componentes QFN (```MPU-6250``` y ```NAU8814```), ahora tienen pads más largos (1.5mm) para facilitar el soldado manual (ese es el ancho de la    superficie del pad que la punta del soldador debe hacer contacto -punta ```900m-t-2c``` preferentemente).
