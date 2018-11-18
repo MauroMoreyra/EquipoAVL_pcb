@@ -10,6 +10,9 @@
 - Verificar diseño 1.1 y corregir errores en caso de que existan.
 - Verificar margenes tolerados por fabricantes, con el fin de achicar tamaños pistas y separación entre las mismas.
 - Agregar información a componentes (desde esquemático).
+- Poner conector DB15 en PCB, para utilizar así un cable VGA-DB15 directamente hacia la consola. Revisar tema gabinete.
+- Capacitor C504 modificar para que sea de menor tamaño, reducir capacidad? low profile? investigar. Es muy alto (25mm).
+- Revisar margenes laterales por tema gabinete - guia para su inserción. Revisar componentes situados muy sobre los bordes.
 
 ## Historial de versiones
 
