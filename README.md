@@ -13,6 +13,9 @@
 - Poner conector DB15 en PCB, para utilizar así un cable VGA-DB15 directamente hacia la consola. Revisar tema gabinete.
 - Capacitor C504 modificar para que sea de menor tamaño, reducir capacidad? low profile? investigar. Es muy alto (25mm).
 - Revisar margenes laterales por tema gabinete - guia para su inserción. Revisar componentes situados muy sobre los bordes.
+- Footprints IPC compatible: Revisar normativa IPC 7351 referente a los footprints recomendados de los componentes, ya que no es aconsejable utilizar los footprints recomendados por los fabricantes de las partes (se puede observar que para un mismo encapsulado, distintos fabricantes recomiendan footprints distintos, aunque varíen muy levemente). Revisar generador de footprints que sigue normativa IPC: https://www.pcblibraries.com/ a través del Library Expert.
+- Footprints IPC compatible: Revisar densidad de componentes. Esto define el keepout del footprint, o sea, la distancia minima de separación con otro componente. Se recomienda usar una densidad "Normal" según el Library Expert.
+- Revisar Bottom Paste de componentes de potencia (ej: LD1085), ya que IPC recomienda una "huella" de pasta de estaño con características especiales (tipo grilla, vías o microvías de disipación en cierta ubicación, etc.).
 
 ## Historial de versiones
 
