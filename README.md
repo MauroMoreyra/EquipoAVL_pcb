@@ -1,5 +1,11 @@
 # EquipoAVL_pcb - vRaptor
 
+## Guía rápida para manejo de versiones
+
+- Habilitar modulo GitFlow en GitKraken.
+- Creación de nueva versión: estando posicionado en rama "develop" o "master", GitFlow > Start Release > Nombre "vX.X" (número de versión).
+- Finalización de nueva versión: GitFlow > Finish release, tildando "Delete branch". De esta forma se vuelcan a las ramas "develop" y "master" los cambios de la versión del release. A su vez se genera un TAG con el nombre del release "vX.X", que quedará de referencia histórica para futura consulta.
+
 ## Mejoras pendientes (previa validación)
 
 - PCB 4 capas.
