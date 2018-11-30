@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -42,7 +42,7 @@ Wire Wire Line
 	6900 4050 6900 4100
 Connection ~ 6900 4050
 $Comp
-L edu-ciaa-nxp:FILTER FB501
+L TrackerAVL-rescue:FILTER-TrackerAVL FB501
 U 1 1 5BA9AAC0
 P 8250 2500
 F 0 "FB501" H 8250 2762 60  0000 C CNN
@@ -55,7 +55,7 @@ $EndComp
 Wire Wire Line
 	8600 2500 8950 2500
 $Comp
-L edu-ciaa-nxp:FILTER FB502
+L TrackerAVL-rescue:FILTER-TrackerAVL FB502
 U 1 1 5BA9AE5B
 P 8250 2900
 F 0 "FB502" H 8250 3162 60  0000 C CNN
@@ -113,7 +113,7 @@ VBAT
 Wire Wire Line
 	8600 2900 8950 2900
 $Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0504
+L TrackerAVL-rescue:PWR_FLAG-edu-ciaa-nxp #FLG0504
 U 1 1 5BAC0985
 P 9250 2250
 F 0 "#FLG0504" H 9250 2345 30  0001 C CNN
@@ -124,7 +124,7 @@ F 3 "" H 9250 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0505
+L TrackerAVL-rescue:PWR_FLAG-edu-ciaa-nxp #FLG0505
 U 1 1 5BAC099E
 P 9250 2850
 F 0 "#FLG0505" H 9250 2945 30  0001 C CNN
@@ -153,7 +153,7 @@ Wire Notes Line
 Wire Notes Line
 	8300 1950 9450 1950
 $Comp
-L edu-ciaa-nxp:DIODESCH D501
+L TrackerAVL-rescue:DIODESCH-edu-ciaa-nxp D501
 U 1 1 5BAC5FAB
 P 4100 2500
 F 0 "D501" H 4100 2693 40  0000 C CNN
@@ -254,7 +254,7 @@ Connection ~ 6900 2500
 Text HLabel 1800 2550 0    50   Input ~ 0
 IGN
 $Comp
-L EquipoAVL:IRF7105 U501
+L TrackerAVL-rescue:IRF7105-EquipoAVL U501
 U 1 1 5BBADAEA
 P 3100 2550
 F 0 "U501" H 3100 2917 50  0000 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 3800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0501
+L TrackerAVL-rescue:PWR_FLAG-edu-ciaa-nxp #FLG0501
 U 1 1 5BC11B0E
 P 3550 2200
 F 0 "#FLG0501" H 3550 2295 30  0001 C CNN
@@ -429,7 +429,7 @@ Connection ~ 3800 2300
 Wire Wire Line
 	3800 2300 3800 2500
 $Comp
-L NCP114:NCP114SN U503
+L TrackerAVL-rescue:NCP114SN-NCP114 U503
 U 1 1 5BCD771B
 P 6300 4100
 F 0 "U503" H 6300 4375 50  0000 C CNN
@@ -483,7 +483,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4500 6300 4500
 $Comp
-L TrackerAVL:ZENER D502
+L TrackerAVL-rescue:ZENER-TrackerAVL D502
 U 1 1 5BA9BE40
 P 4700 4250
 F 0 "D502" V 4738 4171 50  0000 R CNN
@@ -533,7 +533,7 @@ Connection ~ 5950 4050
 Wire Wire Line
 	5950 4050 6000 4050
 $Comp
-L edu-ciaa-nxp:PWR_FLAG #FLG0101
+L TrackerAVL-rescue:PWR_FLAG-edu-ciaa-nxp #FLG0101
 U 1 1 5BD8A4D0
 P 5700 2400
 F 0 "#FLG0101" H 5700 2495 30  0001 C CNN

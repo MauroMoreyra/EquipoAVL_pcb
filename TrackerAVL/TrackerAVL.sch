@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -77,8 +77,8 @@ F9 "MIC-" I R 10300 1600 50
 F10 "BCLK-MCLK" I L 8800 1650 50 
 F11 "FS" I L 8800 1550 50 
 $EndSheet
-Text Notes 8750 4100 0    118  ~ 24
-Pendientes Equipo AVL\n> Asociar huellas
+Text Notes 1100 725  0    118  ~ 24
+Equipo AVL vRaptor v1.0 https://github.com/MauroMoreyra/EquipoAVL_pcb/
 $Sheet
 S 1100 900  1500 600 
 U 5BA56FF8
@@ -93,7 +93,7 @@ U 1 1 5BAF3FC6
 P 1200 6900
 F 0 "H101" H 1300 6946 50  0000 L CNN
 F 1 "MountingHole" H 1300 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 6900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 6900 50  0001 C CNN
 F 3 "~" H 1200 6900 50  0001 C CNN
 	1    1200 6900
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 5BAF4006
 P 1200 7300
 F 0 "H103" H 1300 7346 50  0000 L CNN
 F 1 "MountingHole" H 1300 7255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7300 50  0001 C CNN
 F 3 "~" H 1200 7300 50  0001 C CNN
 	1    1200 7300
 	1    0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 5BAF4050
 P 1200 7100
 F 0 "H102" H 1300 7146 50  0000 L CNN
 F 1 "MountingHole" H 1300 7055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7100 50  0001 C CNN
 F 3 "~" H 1200 7100 50  0001 C CNN
 	1    1200 7100
 	1    0    0    -1  
@@ -126,7 +126,7 @@ U 1 1 5BAF40B1
 P 1200 7500
 F 0 "H104" H 1300 7546 50  0000 L CNN
 F 1 "MountingHole" H 1300 7455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 1200 7500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Thin" H 1200 7500 50  0001 C CNN
 F 3 "~" H 1200 7500 50  0001 C CNN
 	1    1200 7500
 	1    0    0    -1  
@@ -221,10 +221,6 @@ Text Label 10650 1500 2    50   ~ 0
 MIC+
 Text Label 10650 1600 2    50   ~ 0
 MIC-
-Text Notes 8800 750  0    79   ~ 16
-SHEET VALIDADA OK
-Text Notes 1100 800  0    79   ~ 16
-SHEET VALIDADA OK
 Wire Wire Line
 	10300 1300 10650 1300
 Wire Wire Line
@@ -241,8 +237,6 @@ Text Label 2950 1150 2    50   ~ 0
 VBAT
 Text Label 2950 1250 2    50   ~ 0
 IGN
-Text Notes 1100 1900 0    79   ~ 16
-SHEET VALIDADA OK
 Text Label 3050 3400 2    50   ~ 0
 VBAT
 Text Label 3050 3500 2    50   ~ 0
@@ -265,8 +259,6 @@ Wire Wire Line
 	2600 5000 3500 5000
 Wire Wire Line
 	2600 5100 3500 5100
-Text Notes 6400 2400 0    79   ~ 16
-SHEET VALIDADA OK
 $Sheet
 S 6400 900  1500 1100
 U 5BA5700E
@@ -433,8 +425,6 @@ Wire Wire Line
 	5500 1350 6400 1350
 Wire Wire Line
 	5500 1250 6400 1250
-Text Notes 6400 3800 0    79   ~ 16
-SHEET VALIDADA OK
 Text Label 2850 5300 0    50   ~ 0
 I2C_SCL
 Text Label 2850 5400 0    50   ~ 0
@@ -457,7 +447,7 @@ Text Label 5950 2850 0    50   ~ 0
 I2C_SDA
 Wire Wire Line
 	6400 3050 5500 3050
-Text Notes 8950 6400 0    98   ~ 20
+Text Notes 8600 2675 0    118  ~ 24
 Referencias:\nNM: NOT MOUNTED in PCB
 Text Label 3050 3800 2    50   ~ 0
 TEC_0
@@ -536,36 +526,10 @@ Wire Wire Line
 	6400 5900 5500 5900
 Wire Wire Line
 	6400 6000 5500 6000
-$Comp
-L Connector:TestPoint TP101
-U 1 1 5BDCE2DE
-P 3800 7000
-F 0 "TP101" H 3858 7074 50  0000 L CNN
-F 1 "TestPoint" H 3858 7029 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4000 7000 50  0001 C CNN
-F 3 "~" H 4000 7000 50  0001 C CNN
-	1    3800 7000
-	1    0    0    -1  
-$EndComp
 Text Notes 1100 6750 0    59   ~ 12
 Agujeros de montaje
 Text Notes 2250 6750 0    59   ~ 12
 Fiduciales (3 por capa)
-$Comp
-L power:GND #PWR0101
-U 1 1 5BDFB84C
-P 3800 7200
-F 0 "#PWR0101" H 3800 6950 50  0001 C CNN
-F 1 "GND" H 3805 7027 50  0000 C CNN
-F 2 "" H 3800 7200 50  0001 C CNN
-F 3 "" H 3800 7200 50  0001 C CNN
-	1    3800 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 7000 3800 7200
-Text Notes 3750 6750 0    59   ~ 12
-TestPoints
 Wire Wire Line
 	2600 5500 3500 5500
 Wire Wire Line
@@ -580,8 +544,4 @@ Text Label 2850 5500 0    50   ~ 0
 SPI_MOSI
 Text Label 2850 5600 0    50   ~ 0
 SPI_SCK
-Text Notes 6400 750  0    79   ~ 16
-SHEET VALIDADA OK
-Text Notes 3500 750  0    79   ~ 16
-SHEET VALIDADA OK
 $EndSCHEMATC

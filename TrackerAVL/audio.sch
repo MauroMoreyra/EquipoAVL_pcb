@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,7 +20,7 @@ U 1 1 5BA9B2C5
 P 3600 3800
 F 0 "U401" H 3500 3750 60  0000 L CNN
 F 1 "NAU8814" H 3400 3850 60  0000 L CNN
-F 2 "nau8814:NAU8814_QFN-24_4x4mm_Pitch0.5mm_EPAD" H 3600 3800 60  0001 C CNN
+F 2 "nau8814:NAU8814_QFN-24_4x4mm_Pitch0.5mm_EPAD_HandSoldering" H 3600 3800 60  0001 C CNN
 F 3 "" H 3600 3800 60  0001 C CNN
 	1    3600 3800
 	1    0    0    -1  
@@ -852,7 +852,7 @@ U 1 1 5C00FCBB
 P 5600 5600
 F 0 "JP401" H 5600 5864 50  0000 C CNN
 F 1 "Jumper" H 5600 5773 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 5600 5600 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5600 5600 50  0001 C CNN
 F 3 "~" H 5600 5600 50  0001 C CNN
 	1    5600 5600
 	1    0    0    -1  

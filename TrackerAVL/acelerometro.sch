@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -20,7 +20,7 @@ U 1 1 5DB41454
 P 5700 3200
 F 0 "U301" H 5800 2650 50  0000 C CNN
 F 1 "MPU-6050" H 5400 2650 50  0000 C CNN
-F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 5700 2400 50  0001 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm_HandSoldering" H 5700 2400 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5700 3050 50  0001 C CNN
 	1    5700 3200
 	1    0    0    -1  
@@ -224,4 +224,72 @@ Text Notes 7550 2900 0    59   ~ 0
 Señal de interrupción programable\nsegún eventos (ver Datasheet MPU)
 Wire Notes Line
 	7450 2900 9150 2900
+$Comp
+L Connector_Generic:Conn_01x08 J301
+U 1 1 5BEF7FA3
+P 5700 5350
+F 0 "J301" H 5780 5342 50  0000 L CNN
+F 1 "Conn_01x08" H 5780 5251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5700 5350 50  0001 C CNN
+F 3 "~" H 5700 5350 50  0001 C CNN
+	1    5700 5350
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 4650 0    79   ~ 16
+Conector backup para PCB MPU-6050 Arduino
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5BEF90AF
+P 5400 4950
+F 0 "#PWR0101" H 5400 4800 50  0001 C CNN
+F 1 "+3.3V" H 5415 5123 50  0000 C CNN
+F 2 "" H 5400 4950 50  0001 C CNN
+F 3 "" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5050 5400 5050
+Wire Wire Line
+	5400 5050 5400 4950
+Text Label 4400 2900 0    50   ~ 0
+MPU_SCL
+Text Label 4400 3000 0    50   ~ 0
+MPU_SDA
+Text Label 4950 5250 0    50   ~ 0
+MPU_SCL
+Text Label 4950 5350 0    50   ~ 0
+MPU_SDA
+NoConn ~ 5500 5450
+NoConn ~ 5500 5550
+$Comp
+L power:GND #PWR0104
+U 1 1 5BEFD24B
+P 5400 5850
+F 0 "#PWR0104" H 5400 5600 50  0001 C CNN
+F 1 "GND" H 5405 5677 50  0000 C CNN
+F 2 "" H 5400 5850 50  0001 C CNN
+F 3 "" H 5400 5850 50  0001 C CNN
+	1    5400 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5250 5500 5250
+Wire Wire Line
+	4950 5350 5500 5350
+Wire Wire Line
+	5500 5150 5400 5150
+Wire Wire Line
+	5400 5150 5400 5650
+Wire Wire Line
+	5500 5650 5400 5650
+Connection ~ 5400 5650
+Wire Wire Line
+	5400 5650 5400 5850
+Text Label 6600 2900 0    50   ~ 0
+MPU_INT
+Text Label 4950 5750 0    50   ~ 0
+MPU_INT
+Wire Wire Line
+	5500 5750 4950 5750
 $EndSCHEMATC

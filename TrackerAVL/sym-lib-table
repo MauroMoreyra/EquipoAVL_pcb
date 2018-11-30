@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name TrackerAVL-rescue)(type Legacy)(uri ${KIPRJMOD}/TrackerAVL-rescue.lib)(options "")(descr ""))
 )

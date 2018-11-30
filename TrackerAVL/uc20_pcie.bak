@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -162,8 +162,6 @@ Wire Wire Line
 	6550 3600 7450 3600
 Text HLabel 7450 3600 2    50   Input ~ 0
 PERST
-Text Label 6700 3600 0    50   ~ 0
-PERST
 $Comp
 L Device:R R601
 U 1 1 5BAB0EDA
@@ -301,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 2800 9900 2800
 $Comp
-L mpcie:MPCIE-Socket U601
+L TrackerAVL-rescue:MPCIE-Socket-mpcie U601
 U 1 1 5BA7E0EE
 P 5900 3250
 F 0 "U601" H 5850 4700 60  0000 C CNN

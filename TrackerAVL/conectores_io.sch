@@ -9,7 +9,7 @@ Title "Equipo AVL - vRaptor"
 Date "2018-10-30"
 Rev "1.0"
 Comp ""
-Comment1 "Ing. Mauro Moreyra"
+Comment1 "Autor: Ing. Mauro Moreyra"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -435,12 +435,12 @@ DISP_SPI_CS1
 Text HLabel 3000 5850 2    50   Input ~ 0
 DISPLAY_MODE
 $Comp
-L 74xx:74HC4053 U801
+L TrackerAVL-rescue:74HC4053-74xx U801
 U 1 1 5BDADD1C
 P 2400 5800
 F 0 "U801" H 2500 6300 50  0000 C CNN
 F 1 "74HC4053" H 2100 6300 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2400 5400 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2400 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf" H 2400 5400 50  0001 C CNN
 	1    2400 5800
 	1    0    0    -1  
@@ -541,4 +541,6 @@ Text Notes 3400 5700 0    50   ~ 0
 NC      / SPI_CS1
 Text Notes 3400 5400 0    50   ~ 0
 DM = 0 / DM = 1
+Text Notes 3400 5300 0    50   ~ 0
+DISPLAY_MODE (DM)
 $EndSCHEMATC

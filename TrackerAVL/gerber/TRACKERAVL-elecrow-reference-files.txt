@@ -1,0 +1,13 @@
+Reference for files:
+
+1. Gerber Files Required
+
+The following files would be needed for the PCB production:
+Top layer:               pcbname.GTL     OK
+Bottom layer:            pcbname.GBL     OK
+Solder Stop Mask top:    pcbname.GTS     OK
+Solder Stop Mask Bottom: pcbname.GBS     OK
+Silk Top:                pcbname.GTO     OK
+Silk Bottom:             pcbname.GBO     OK
+NC Drill:                pcbname.TXT     Please see compatible files "TrackerAVL-PTH.drl" (plated holes) and "TrackerAVL-NPTH.drl" (NOT plated holes)
+Mechanical layer:        pcbname.GML     OK
